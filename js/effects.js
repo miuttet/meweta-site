@@ -1,10 +1,7 @@
 (function() {
 
   // ── D. ページ読み込み時フェードイン ──────────────────────
-  document.documentElement.style.opacity = '0';
-  document.documentElement.style.transition = 'opacity 1.5s ease-in-out';
-  document.documentElement.style.transitionDelay = '0.1s';
-
+  // 初期 opacity: 0 は CSS で設定済み。loadイベント後に1にする
   window.addEventListener('load', function() {
     document.documentElement.style.opacity = '1';
   });

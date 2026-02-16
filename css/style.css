@@ -18,6 +18,11 @@ html, body {
   height: 100%;
 }
 
+html {
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
 body {
   background-color: var(--bg);
   color: var(--text);
