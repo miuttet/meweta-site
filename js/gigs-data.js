@@ -1,5 +1,17 @@
 var GIGS = [
   {
+    date: "2026-03-27",
+    event: "ほしのおと × CARESS",
+    venue: "WWW + WWWβ",
+    time: "OPEN 17:30 / START 18:00",
+    artists: [
+      { role: "WWW / live", names: "Cruyff / the hatch / ウ山あまね / 野崎りこん / ラブリーサマーちゃん" },
+      { role: "WWW / VJ", names: "Syoronpo." },
+      { role: "WWWβ / live", names: "Le Makeup / 川辺素 / 没 AkA NGS" },
+      { role: "WWWβ / DJ", names: "トマトざえもん" }
+    ]
+  },
+  {
     date: "2026-02-20",
     event: "delfy",
     venue: "中野HeavySick Zero",
