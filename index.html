@@ -22,7 +22,12 @@
 
     <main>
 
-      <div class="section-label">upcoming</div>
+      <div class="section-label">caress</div>
+      <ul class="gig-list" id="home-caress-list"></ul>
+
+      <hr>
+
+      <div class="section-label">upcoming gigs</div>
       <ul class="gig-list" id="home-upcoming-list"></ul>
 
       <hr>
@@ -58,47 +63,31 @@
       var today = new Date();
       today.setHours(0, 0, 0, 0);
 
+      var caressList = document.getElementById('home-caress-list');
       var upcomingList = document.getElementById('home-upcoming-list');
       var recentList = document.getElementById('home-recent-list');
 
+      var upcomingCaress = [];
       var upcoming = [];
       var past = [];
 
       GIGS.forEach(function(gig) {
         var gigDate = new Date(gig.date);
         gigDate.setHours(0, 0, 0, 0);
+        var isCaress = gig.event.toUpperCase().indexOf('CARESS') !== -1;
+
         if (gigDate >= today) {
-          upcoming.push(gig);
+          if (isCaress) {
+            upcomingCaress.push(gig);
+          } else {
+            upcoming.push(gig);
+          }
         } else {
           past.push(gig);
         }
       });
 
-      // upcoming: すべて表示
-      if (upcoming.length === 0) {
-        var empty = document.createElement('li');
-        empty.className = 'gig-item no-flyer';
-        empty.innerHTML = '<div class="gig-body"><div class="gig-info"><span class="gig-event no-events">— no upcoming events</span></div></div>';
-        upcomingList.appendChild(empty);
-      } else {
-        upcoming.forEach(function(gig) {
-          var li = document.createElement('li');
-          li.className = 'gig-item no-flyer';
-          li.innerHTML =
-            '<div class="gig-body">' +
-              '<div class="gig-info">' +
-                '<span class="gig-event">' + gig.event + '</span>' +
-                '<span class="gig-venue">' + gig.venue + '</span>' +
-              '</div>' +
-              '<span class="gig-date">' + gig.date.replace(/-/g, '.') + '</span>' +
-            '</div>';
-          upcomingList.appendChild(li);
-        });
-      }
-
-      // recent gigs: 過去3件
-      var recentGigs = past.slice(0, 3);
-      recentGigs.forEach(function(gig) {
+      function makeGigLi(gig) {
         var li = document.createElement('li');
         li.className = 'gig-item no-flyer';
         li.innerHTML =
@@ -109,10 +98,42 @@
             '</div>' +
             '<span class="gig-date">' + gig.date.replace(/-/g, '.') + '</span>' +
           '</div>';
-        recentList.appendChild(li);
-      });
+        return li;
+      }
 
-      // recent gigsの下に「→ all gigs」リンク
+      function makeEmptyLi(msg) {
+        var li = document.createElement('li');
+        li.className = 'gig-item no-flyer';
+        li.innerHTML = '<div class="gig-body"><div class="gig-info"><span class="gig-event no-events">' + msg + '</span></div></div>';
+        return li;
+      }
+
+      // caress
+      if (upcomingCaress.length === 0) {
+        caressList.appendChild(makeEmptyLi('— no upcoming events'));
+      } else {
+        upcomingCaress.forEach(function(gig) {
+          caressList.appendChild(makeGigLi(gig));
+        });
+      }
+      var caressMore = document.createElement('li');
+      caressMore.className = 'gig-item no-flyer';
+      caressMore.innerHTML = '<div class="gig-body"><div class="gig-info"><span class="gig-event"><a href="caress.html">→ caress</a></span></div></div>';
+      caressList.appendChild(caressMore);
+
+      // upcoming gigs
+      if (upcoming.length === 0) {
+        upcomingList.appendChild(makeEmptyLi('— no upcoming events'));
+      } else {
+        upcoming.forEach(function(gig) {
+          upcomingList.appendChild(makeGigLi(gig));
+        });
+      }
+
+      // recent gigs（過去3件）
+      past.slice(0, 3).forEach(function(gig) {
+        recentList.appendChild(makeGigLi(gig));
+      });
       if (past.length > 0) {
         var more = document.createElement('li');
         more.className = 'gig-item no-flyer';
