@@ -165,7 +165,7 @@ var GIGS = [
   {
     date: "2025-11-05",
     event: "Aztec Tour Kagurane",
-    venue: "鹿鳴館",
+    venue: "Kagurane",
     time: "OPEN 18:00 / START 18:00",
     artists: [
       { role: "DJ", names: "DJ 悦 / meweta / Sofa" },
@@ -219,6 +219,16 @@ var GIGS = [
     artists: [
       { role: "DJ", names: "DJ世界樹 / meweta / Nordチンチラ / Ryota Nakamura / S3R4PH / Zeqoo / エスカリボルグ / 豪雨(negimiso × sazablizry)" },
       { role: "VJ", names: "査察" }
+    ]
+  },
+  {
+    date: "2025-10-11",
+    event: "HI VISION",
+    venue: "中野HeavySick Zero",
+    time: "OPEN 18:00",
+    artists: [
+      { role: "live", names: "honninnman / Miku The Dude / Whoopee Bomb" },
+      { role: "DJ", names: "Lil Peace / liminal mafia / misa nakamura / meweta / morningeek / sazablizry / suppa micro panchop / DJストレス / Ziziphus Jujuba / 宇宙チンチラ / 坂田律子" }
     ]
   },
   {
