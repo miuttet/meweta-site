@@ -74,10 +74,8 @@
       GIGS.forEach(function(gig) {
         var gigDate = new Date(gig.date);
         gigDate.setHours(0, 0, 0, 0);
-        var isCaress = gig.event.toUpperCase().indexOf('CARESS') !== -1;
-
         if (gigDate >= today) {
-          if (isCaress) {
+          if (gig.isCaress) {
             upcomingCaress.push(gig);
           } else {
             upcoming.push(gig);

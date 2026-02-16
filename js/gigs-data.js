@@ -2,6 +2,7 @@ var GIGS = [
   {
     date: "2026-03-27",
     event: "ほしのおと × CARESS",
+    isCaress: true,
     venue: "WWW + WWWβ",
     time: "OPEN 17:30 / START 18:00",
     artists: [
