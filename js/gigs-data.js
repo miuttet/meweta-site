@@ -24,6 +24,7 @@ var GIGS = [
   {
     date: "2026-02-12",
     event: "CARESS ROOM",
+    isCaress: true,
     venue: "FORESTLIMIT",
     time: "OPEN 18:30",
     artists: [
