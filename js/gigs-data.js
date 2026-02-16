@@ -121,5 +121,14 @@ var GIGS = [
       { role: "DJ", names: "eijin / Ethic / kiyota / 夏至 / xuan / 星山星子 / meweta" },
       { role: "VJ", names: "Ni" }
     ]
+  },
+  {
+    date: "2025-12-05",
+    event: "doubline vol.14",
+    venue: "阿佐ヶ谷DRIFT",
+    time: "OPEN 24:00 / CLOSE 28:00",
+    artists: [
+      { role: "DJ", names: "NordOst / meweta" }
+    ]
   }
 ];
