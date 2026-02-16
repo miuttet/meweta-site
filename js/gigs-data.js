@@ -22,17 +22,6 @@ var GIGS = [
     ]
   },
   {
-    date: "2025-12-26",
-    event: "CARESS→26→",
-    isCaress: true,
-    venue: "幡ヶ谷FORESTLIMIT",
-    time: "OPEN 23:59",
-    artists: [
-      { role: "DJ", names: "eijin / Ethic / kiyota / 夏至 / xuan / 星山星子 / meweta" },
-      { role: "VJ", names: "Ni" }
-    ]
-  },
-  {
     date: "2026-02-12",
     event: "CARESS ROOM",
     isCaress: true,
@@ -120,6 +109,17 @@ var GIGS = [
       { role: "live", names: "Djubumba×超越 / KAIRUI / Telematic Visions" },
       { role: "DJ", names: "芥川 / 離 / anolis / dj woahhaus / Lee / nano odorine / Navi FlashBackAtmosphere / meweta / Ryota Nakamura / noryo / cfnslptu" },
       { role: "VJ", names: "avys / O.G.I / 葉山" }
+    ]
+  },
+  {
+    date: "2025-12-26",
+    event: "CARESS→26→",
+    isCaress: true,
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 23:59",
+    artists: [
+      { role: "DJ", names: "eijin / Ethic / kiyota / 夏至 / xuan / 星山星子 / meweta" },
+      { role: "VJ", names: "Ni" }
     ]
   }
 ];
