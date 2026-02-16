@@ -9,7 +9,7 @@
 <body>
   <div class="wrapper">
 
-    <header>
+    <header class="anim-slide">
       <h1 class="site-title"><a href="index.html">meweta</a></h1>
       <nav>
         <a href="index.html" class="active">home</a>
@@ -22,24 +22,24 @@
 
     <main>
 
-      <div class="section-label">caress</div>
+      <div class="section-label anim-slide">caress</div>
       <ul class="gig-list" id="home-caress-list"></ul>
 
-      <hr>
+      <hr class="anim-slide">
 
-      <div class="section-label">upcoming gigs</div>
+      <div class="section-label anim-slide">upcoming gigs</div>
       <ul class="gig-list" id="home-upcoming-list"></ul>
 
-      <hr>
+      <hr class="anim-slide">
 
-      <div class="section-label">recent gigs</div>
+      <div class="section-label anim-slide">recent gigs</div>
       <ul class="gig-list" id="home-recent-list"></ul>
 
-      <hr>
+      <hr class="anim-slide">
 
-      <div class="section-label">latest mix</div>
+      <div class="section-label anim-slide">latest mix</div>
       <ul class="mix-list">
-        <li class="mix-item">
+        <li class="mix-item anim-slide">
           <div class="mix-header">
             <span class="mix-title">meweta at niwa S4</span>
             <span class="mix-meta">2025.08.09</span>
@@ -88,7 +88,7 @@
 
       function makeGigLi(gig) {
         var li = document.createElement('li');
-        li.className = 'gig-item no-flyer';
+        li.className = 'gig-item no-flyer anim-slide';
         li.innerHTML =
           '<div class="gig-body">' +
             '<div class="gig-info">' +
@@ -102,7 +102,7 @@
 
       function makeEmptyLi(msg) {
         var li = document.createElement('li');
-        li.className = 'gig-item no-flyer';
+        li.className = 'gig-item no-flyer anim-slide';
         li.innerHTML = '<div class="gig-body"><div class="gig-info"><span class="gig-event no-events">' + msg + '</span></div></div>';
         return li;
       }
@@ -116,7 +116,7 @@
         });
       }
       var caressMore = document.createElement('li');
-      caressMore.className = 'gig-item no-flyer';
+      caressMore.className = 'gig-item no-flyer anim-slide';
       caressMore.innerHTML = '<div class="gig-body"><div class="gig-info"><span class="gig-event"><a href="caress.html">→ caress</a></span></div></div>';
       caressList.appendChild(caressMore);
 
@@ -135,7 +135,7 @@
       });
       if (past.length > 0) {
         var more = document.createElement('li');
-        more.className = 'gig-item no-flyer';
+        more.className = 'gig-item no-flyer anim-slide';
         more.innerHTML = '<div class="gig-body"><div class="gig-info"><span class="gig-event"><a href="gigs.html">→ all gigs</a></span></div></div>';
         recentList.appendChild(more);
       }

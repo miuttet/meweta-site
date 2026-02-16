@@ -9,7 +9,7 @@
 <body>
   <div class="wrapper">
 
-    <header>
+    <header class="anim-slide">
       <h1 class="site-title"><a href="index.html">meweta</a></h1>
       <nav>
         <a href="index.html">home</a>
@@ -21,12 +21,12 @@
     </header>
 
     <main>
-      <div class="section-label">upcoming</div>
+      <div class="section-label anim-slide">upcoming</div>
       <ul class="gig-list" id="upcoming-list"></ul>
 
-      <hr>
+      <hr class="anim-slide">
 
-      <div class="section-label">past</div>
+      <div class="section-label anim-slide">past</div>
       <ul class="gig-list" id="past-list"></ul>
     </main>
 
@@ -69,7 +69,7 @@
         }
 
         var li = document.createElement('li');
-        li.className = 'gig-item no-flyer';
+        li.className = 'gig-item no-flyer anim-slide';
         li.innerHTML =
           '<div class="gig-body">' +
             '<div class="gig-info">' +
@@ -90,7 +90,7 @@
 
       if (upcomingCount === 0) {
         var empty = document.createElement('li');
-        empty.className = 'gig-item no-flyer';
+        empty.className = 'gig-item no-flyer anim-slide';
         empty.innerHTML = '<div class="gig-body"><div class="gig-info"><span class="gig-event no-events">— no upcoming events</span></div></div>';
         upcomingList.appendChild(empty);
       }

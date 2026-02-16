@@ -1,9 +1,17 @@
 (function() {
 
-  // ── D. ページ読み込み時フェードイン ──────────────────────
-  // 初期 opacity: 0 は CSS で設定済み。loadイベント後に1にする
+  // ── D. ページフェードイン + 要素スライドダウン ──────────────
   window.addEventListener('load', function() {
+    // ページ全体フェードイン
     document.documentElement.style.opacity = '1';
+
+    // .anim-slide クラスの要素を順番にスライドイン
+    var targets = document.querySelectorAll('.anim-slide');
+    targets.forEach(function(el, i) {
+      setTimeout(function() {
+        el.classList.add('is-visible');
+      }, i * 80);
+    });
   });
 
 
