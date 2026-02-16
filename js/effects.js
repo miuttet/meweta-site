@@ -2,7 +2,8 @@
 
   // ── D. ページ読み込み時フェードイン ──────────────────────
   document.documentElement.style.opacity = '0';
-  document.documentElement.style.transition = 'opacity 0.5s ease';
+  document.documentElement.style.transition = 'opacity 1.5s ease-in-out';
+  document.documentElement.style.transitionDelay = '0.1s';
 
   window.addEventListener('load', function() {
     document.documentElement.style.opacity = '1';
