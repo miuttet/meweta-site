@@ -198,7 +198,9 @@ var GIGS = [
     venue: "幡ヶ谷FORESTLIMIT",
     time: "OPEN 17:00 / CLOSE 09:00",
     artists: [
-      { role: "live", names: "超越 / ギザドド / 芳賀菜々花 / 百年の孤独 / jvnpey / kegøn / PAX0 & ANZZY & DJ FLOWW / Pu$h! / Siero / silky heqrt / the DRO initiation / you geek" }
+      { role: "live", names: "超越 / ギザドド / 芳賀菜々花 / 百年の孤独 / jvnpey / kegøn / PAX0 & ANZZY & DJ FLOWW / Pu$h! / Siero / silky heqrt / the DRO initiation / you geek" },
+      { role: "DJ", names: "芥川 / asterisk* with O.G.I / BASiRiNO / chifu (from NEGATIVE SUN) / eminemsaiko / glico / Hue Ray / #jesusclub with 査察 / krynX / meweta with Ni / 森田塾、朝練 / らりる連合 / 死夏(死没 × 夏至) / 高幡テクノ同盟 / トマトざえもん / wagahai is neko / Ziziphus Jujuba" },
+      { role: "screening", names: "勇" }
     ]
   },
   {
