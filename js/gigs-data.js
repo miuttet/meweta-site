@@ -243,16 +243,6 @@ var GIGS = [
     ]
   },
   {
-    date: "2025-09-11",
-    event: "CARESS TEAR",
-    isCaress: true,
-    venue: "幡ヶ谷FORESTLIMIT",
-    time: "OPEN 19:00",
-    artists: [
-      { role: "live", names: "離 / 蜂的男(from Pasocom Music Club) / audiostoker0720 / 今すぐキス美 / meweta" }
-    ]
-  },
-  {
     date: "2025-10-04",
     event: "CARESS at WWWβ",
     isCaress: true,
@@ -261,6 +251,16 @@ var GIGS = [
     artists: [
       { role: "live", names: "nomβa (nano odorine × DjuBumba) / 百年の孤独 (One Boiling Point × toulavi × loli主語)" },
       { role: "DJ", names: "Hue Ray / iichiro taya / moge! / shki / meweta" }
+    ]
+  },
+  {
+    date: "2025-09-11",
+    event: "CARESS TEAR",
+    isCaress: true,
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 19:00",
+    artists: [
+      { role: "live", names: "離 / 蜂的男(from Pasocom Music Club) / audiostoker0720 / 今すぐキス美 / meweta" }
     ]
   }
 ];
