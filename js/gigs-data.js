@@ -273,5 +273,17 @@ var GIGS = [
     artists: [
       { role: "live", names: "離 / 蜂的男(from Pasocom Music Club) / audiostoker0720 / 今すぐキス美 / meweta" }
     ]
+  },
+  {
+    date: "2025-08-30",
+    event: "CARESS SAPPORO",
+    isCaress: true,
+    venue: "札幌PlasticTheater",
+    time: "OPEN 18:30",
+    artists: [
+      { role: "live", names: "safmusic / WaB. / 倫瑠" },
+      { role: "DJ", names: "Fit's(beagostini × water b0y) / nemko cvo2(nemko cvr × 死没) / 夏至 VS 偽夏至(池田貫太) / 破戒(もふもふパニック × QiA) / しみじみ(mostin × meweta)" },
+      { role: "VJ", names: "Ni" }
+    ]
   }
 ];
