@@ -306,5 +306,50 @@ var GIGS = [
     artists: [
       { role: "DJ", names: "loli主語 / tiruco / 6cm / meweta" }
     ]
+  },
+  {
+    date: "2025-05-03",
+    event: "CARESS vol.4",
+    isCaress: true,
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 23:00 / CLOSE 05:00",
+    artists: [
+      { role: "DJ", names: "BASiRiNO / dj soul Prarn / suwakazuya / Veronica(QiA×ケニアの宴) / もふもふパニック / meweta" },
+      { role: "VJ", names: "Ni" }
+    ]
+  },
+  {
+    date: "2025-04-12",
+    event: "CARESS vol.3",
+    isCaress: true,
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 24:00",
+    artists: [
+      { role: "DJ", names: "iichiro taya / illequal / moge! / ｎｏｎｏｋａ / Oyubi / Rico(LAUSBUB) Hybrid Set / meweta" },
+      { role: "VJ", names: "yamagamijin" }
+    ]
+  },
+  {
+    date: "2025-03-15",
+    event: "CARESS vol.2",
+    isCaress: true,
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 17:30 / CLOSE 23:00",
+    artists: [
+      { role: "live", names: "iVy / Natural Brothers / popo / COFCONE" },
+      { role: "DJ", names: "池田貫太 / nohelmetlovedog / tegadeteru / meweta" }
+    ]
+  },
+  {
+    date: "2025-02-15",
+    event: "CARESS vol.1",
+    isCaress: true,
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 18:00 / CLOSE 05:00",
+    artists: [
+      { role: "DAY / live", names: "ELBISMANSION / vq / 倫瑠" },
+      { role: "DAY / DJ", names: "mostin fantasy / cellulose / noripi / meweta / 夏至" },
+      { role: "NIGHT / DJ", names: "nano odorine / nemko cvr / sazablizry / seba / Xamd Hybrid Set / 死没" }
+    ]
   }
 ];
