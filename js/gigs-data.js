@@ -254,6 +254,17 @@ var GIGS = [
     ]
   },
   {
+    date: "2025-09-17",
+    event: "K/A/T/O MASSACRE vol.545",
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 18:30",
+    artists: [
+      { role: "special guest", names: "Aire NGLY" },
+      { role: "live", names: "川 / QUEER NATIONS" },
+      { role: "DJ", names: "iichiro taya / kowaku / meweta / 6cm" }
+    ]
+  },
+  {
     date: "2025-09-11",
     event: "CARESS TEAR",
     isCaress: true,
