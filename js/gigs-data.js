@@ -271,7 +271,7 @@ var GIGS = [
     venue: "幡ヶ谷FORESTLIMIT",
     time: "OPEN 19:00",
     artists: [
-      { role: "live", names: "離 / 蜂的男(from Pasocom Music Club) / audiostoker0720 / 今すぐキス美 / meweta" }
+      { role: "live", names: "～離 / 蜂的男(from Pasocom Music Club) / audiostoker0720 / 今すぐキス美 / meweta" }
     ]
   },
   {
@@ -304,7 +304,7 @@ var GIGS = [
     venue: "幡ヶ谷FORESTLIMIT",
     time: "OPEN 19:00",
     artists: [
-      { role: "DJ", names: "loli主語 / mentiruco / 6cm / nppl / meweta" }
+      { role: "DJ", names: "loli主語 / tiruco / 6cm / meweta" }
     ]
   }
 ];
