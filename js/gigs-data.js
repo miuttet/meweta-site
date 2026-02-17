@@ -285,5 +285,26 @@ var GIGS = [
       { role: "DJ", names: "Fit's(beagostini × water b0y) / nemko cvo2(nemko cvr × 死没) / 夏至 VS 偽夏至(池田貫太) / 破戒(もふもふパニック × QiA) / しみじみ(mostin × meweta)" },
       { role: "VJ", names: "Ni" }
     ]
+  },
+  {
+    date: "2025-07-04",
+    event: "CARESS ASAGAYA",
+    isCaress: true,
+    venue: "阿佐ヶ谷DRIFT",
+    time: "OPEN 23:00",
+    artists: [
+      { role: "DJ", names: "DiamondCatcher8+ / dontkillvibes / tellur / 叡智の書 / エスカリボルグ / ドラゴン / meweta" },
+      { role: "VJ", names: "電気耳" }
+    ]
+  },
+  {
+    date: "2025-06-10",
+    event: "CARESS RING",
+    isCaress: true,
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 19:00",
+    artists: [
+      { role: "DJ", names: "loli主語 / mentiruco / 6cm / nppl / meweta" }
+    ]
   }
 ];
