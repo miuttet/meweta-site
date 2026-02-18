@@ -397,6 +397,17 @@ var GIGS = [
     ]
   },
   {
+    date: "2025-06-13",
+    event: "DRIFT",
+    venue: "阿佐ヶ谷DRIFT",
+    time: "19:30 - late",
+    artists: [
+      { role: "live", names: "lilbesh ramko" },
+      { role: "DJ", names: "cosh / dontkillvibes / DRIFT crew / F2F (Fein2Fein) / meweta / music fm / NordOst / 勇 / 多様な価値観" },
+      { role: "VJ", names: "査察" }
+    ]
+  },
+  {
     date: "2025-06-10",
     event: "CARESS RING",
     isCaress: true,
@@ -404,6 +415,26 @@ var GIGS = [
     time: "OPEN 19:00",
     artists: [
       { role: "DJ", names: "loli主語 / tiruco / 6cm / meweta" }
+    ]
+  },
+  {
+    date: "2025-05-23",
+    event: "Lifememory",
+    venue: "SPREAD",
+    time: "OPEN 17:00 / CLOSE 22:30",
+    artists: [
+      { role: "act", names: "BHS / Svve / yve / 4nqca / 21gangsound / meweta / odruhikikomori / 夏至 / 死没 / わにわに-_- / 奏 / nerd3 (奏 & わにわに-_-)" }
+    ]
+  },
+  {
+    date: "2025-05-16",
+    event: "Oracle vol.3",
+    venue: "theater guild 代官山",
+    time: "OPEN 22:00",
+    artists: [
+      { role: "live", names: "KAIRUI / Yoyou" },
+      { role: "DJ", names: "aosushi / kanato / n4f / NordOst / meweta / myein" },
+      { role: "VJ", names: "avys / HANBEE" }
     ]
   },
   {
