@@ -254,6 +254,15 @@ var GIGS = [
     ]
   },
   {
+    date: "2025-09-27",
+    event: "Precious vol.1",
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 16:00 / CLOSE 22:40",
+    artists: [
+      { role: "DJ", names: "YONEDA / 144p / fuluca / Seth / DREAMFIGHTCLUB / 死没 / nmsg / Kazuma / weB / Michael" }
+    ]
+  },
+  {
     date: "2025-09-17",
     event: "K/A/T/O MASSACRE vol.545",
     venue: "幡ヶ谷FORESTLIMIT",
@@ -325,6 +334,15 @@ var GIGS = [
     ]
   },
   {
+    date: "2025-07-20",
+    event: "Lifememory vol.2",
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 23:00 / CLOSE 05:00",
+    artists: [
+      { role: "DJ", names: "Amuxax / alouji / refgenkai / 4nqca / fogsettings / Abareflail / 勇と戦車 / nerd3 / 東雲" }
+    ]
+  },
+  {
     date: "2025-07-06",
     event: "ほしのおと vol.5",
     venue: "笹塚ボウル",
@@ -344,6 +362,38 @@ var GIGS = [
     artists: [
       { role: "DJ", names: "DiamondCatcher8+ / dontkillvibes / tellur / 叡智の書 / エスカリボルグ / ドラゴン / meweta" },
       { role: "VJ", names: "電気耳" }
+    ]
+  },
+  {
+    date: "2025-06-20",
+    event: "imu 1st Anniversary",
+    venue: "PlasticTheater",
+    time: "OPEN 23:00 / CLOSE 05:00",
+    artists: [
+      { role: "DJ", names: "¥ØU$UK€ / ¥UK1MAT$U / Veronica / Katana / meweta / サトウツバサ / もふもふパニック / 夏至" },
+      { role: "live", names: "Amphaloss." },
+      { role: "VJ", names: "もふもふパニック" }
+    ]
+  },
+  {
+    date: "2025-06-19",
+    event: "mizzle vol.1",
+    venue: "PlasticTheater",
+    time: "19:00 - 23:00",
+    artists: [
+      { role: "DJ", names: "cvel / meweta / OGASHAKA" },
+      { role: "live", names: "DOY / GOLLOW / mei(LAUSBUB) / Yuki Aizawa" }
+    ]
+  },
+  {
+    date: "2025-06-15",
+    event: "✴︎Reminiscence/Dizziness✴︎",
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "16:00 - 22:00",
+    artists: [
+      { role: "DJ", names: "divine oracle / 量子もつれ / 超越 / 津田" },
+      { role: "live", names: "meweta / Ni(A/V set) / 倫瑠 / uami / montyaxn" },
+      { role: "VJ", names: "Ni×米田" }
     ]
   },
   {
