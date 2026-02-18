@@ -287,6 +287,44 @@ var GIGS = [
     ]
   },
   {
+    date: "2025-08-13",
+    event: "PURE",
+    venue: "saloon",
+    time: "OPEN 23:00",
+    artists: [
+      { role: "act", names: "Big Animal Theory / djubumba / DubGuy (Uh-U!) / moge! / RYUSEI / 多様な価値観 / meweta×Reo" }
+    ]
+  },
+  {
+    date: "2025-08-09",
+    event: "庭 niwa S4",
+    venue: "代官山ORD",
+    time: "OPEN 23:00 / CLOSE 05:00",
+    artists: [
+      { role: "MAIN FLOOR / live", names: "One Boiling Point / MON/KU & 町田匡 / RYOKO2000 / 没 AkA NGS" },
+      { role: "MAIN FLOOR / DJ", names: "okadada / illequal / Yurushite Nyan" },
+      { role: "LOUNGE FLOOR", names: "星山星子 / Liminal Mafia / BASiRiNO / 拳 / NordOst / meweta" }
+    ]
+  },
+  {
+    date: "2025-08-08",
+    event: "勇の日(最終回)",
+    venue: "阿佐ヶ谷DRIFT",
+    time: "OPEN 22:20",
+    artists: [
+      { role: "DJ", names: "butagoya / nokia / sazablizry / yahmanfightclub / ⊂(  ᴖ ̫ᴖ)⊃ ⊂(ᴖ ̫ᴖ  )⊃ / 勇と戦車 (OVA) / 石渡康汰 / ドラゴン" }
+    ]
+  },
+  {
+    date: "2025-07-28",
+    event: "Local Point vol.18",
+    venue: "Zubar Shibuya",
+    time: "17:00 - 23:00",
+    artists: [
+      { role: "DJ", names: "aphextwinsucks / iyoyang / jackray / meweta / snobo / エスカリボルグ / セックスホビー / 多様な価値観 / 饕餮" }
+    ]
+  },
+  {
     date: "2025-07-04",
     event: "CARESS ASAGAYA",
     isCaress: true,
@@ -350,6 +388,17 @@ var GIGS = [
       { role: "DAY / live", names: "ELBISMANSION / vq / 倫瑠" },
       { role: "DAY / DJ", names: "mostin fantasy / cellulose / noripi / meweta / 夏至" },
       { role: "NIGHT / DJ", names: "nano odorine / nemko cvr / sazablizry / seba / Xamd Hybrid Set / 死没" }
+    ]
+  },
+  {
+    date: "2024-07-06",
+    event: "ほしのおと vol.5",
+    venue: "笹塚ボウル",
+    time: "16:00 - 22:00",
+    artists: [
+      { role: "live", names: "Waater / iga / Yoyou / Halves / Oni / 雪国 / Texas 3000 / nu NOUGAT" },
+      { role: "DJ", names: "meweta" },
+      { role: "VJ", names: "HANBEE / Syoronpo." }
     ]
   }
 ];
