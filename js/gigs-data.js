@@ -325,6 +325,17 @@ var GIGS = [
     ]
   },
   {
+    date: "2025-07-06",
+    event: "ほしのおと vol.5",
+    venue: "笹塚ボウル",
+    time: "16:00 - 22:00",
+    artists: [
+      { role: "live", names: "Waater / iga / Yoyou / Halves / Oni / 雪国 / Texas 3000 / nu NOUGAT" },
+      { role: "DJ", names: "meweta" },
+      { role: "VJ", names: "HANBEE / Syoronpo." }
+    ]
+  },
+  {
     date: "2025-07-04",
     event: "CARESS ASAGAYA",
     isCaress: true,
@@ -388,17 +399,6 @@ var GIGS = [
       { role: "DAY / live", names: "ELBISMANSION / vq / 倫瑠" },
       { role: "DAY / DJ", names: "mostin fantasy / cellulose / noripi / meweta / 夏至" },
       { role: "NIGHT / DJ", names: "nano odorine / nemko cvr / sazablizry / seba / Xamd Hybrid Set / 死没" }
-    ]
-  },
-  {
-    date: "2024-07-06",
-    event: "ほしのおと vol.5",
-    venue: "笹塚ボウル",
-    time: "16:00 - 22:00",
-    artists: [
-      { role: "live", names: "Waater / iga / Yoyou / Halves / Oni / 雪国 / Texas 3000 / nu NOUGAT" },
-      { role: "DJ", names: "meweta" },
-      { role: "VJ", names: "HANBEE / Syoronpo." }
     ]
   }
 ];
