@@ -13,6 +13,15 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-03-06",
+    event: "00parts",
+    venue: "CIRCUS TOKYO",
+    artists: [
+      { role: "B1", names: "PERGO / Alice / Yuki / jo / manato / Usk°" },
+      { role: "1F", names: "meweta / NITA / SOGI / sukneed" }
+    ]
+  },
+  {
     date: "2026-02-20",
     event: "delfy",
     venue: "中野HeavySick Zero",
