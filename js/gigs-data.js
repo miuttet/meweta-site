@@ -22,6 +22,16 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-02-27",
+    event: "かいゆう",
+    venue: "恵比寿BATICA",
+    time: "OPEN 18:00 / CLOSE 22:00",
+    artists: [
+      { role: "live", names: "lymph / P'ortable room™︎ / in-mark / 志見祥" },
+      { role: "DJ", names: "Lil Peace / cfnslptu / meweta" }
+    ]
+  },
+  {
     date: "2026-02-20",
     event: "delfy",
     venue: "中野HeavySick Zero",
