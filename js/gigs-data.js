@@ -63,7 +63,7 @@ var GIGS = [
     date: "2026-02-12",
     event: "CARESS ROOM",
     isCaress: true,
-    venue: "FORESTLIMIT",
+    venue: "幡ヶ谷FORESTLIMIT",
     time: "OPEN 18:30",
     artists: [
       { role: "live", names: "Jesse Ruins / momonesuko / Pukha Pukha" },
@@ -132,10 +132,10 @@ var GIGS = [
   {
     date: "2026-01-16",
     event: "NEOPULES",
-    venue: "FORESTLIMIT",
+    venue: "幡ヶ谷FORESTLIMIT",
     time: "OPEN 23:00 / CLOSE 05:30",
     artists: [
-      { role: "DJ", names: "RANNA / nacogotoh / meweta / xamd / pointhope / MUNÉO × piccolo / unkokitty" }
+      { role: "DJ", names: "RANNA / nacogotoh / meweta / Xamd / pointhope / MUNÉO × piccolo / unkokitty" }
     ]
   },
   {
@@ -144,7 +144,7 @@ var GIGS = [
     venue: "theater guild 代官山",
     time: "OPEN 17:00 / CLOSE 05:00",
     artists: [
-      { role: "live", names: "Djubumba×超越 / KAIRUI / Telematic Visions" },
+      { role: "live", names: "DjuBumba×超越 / KAIRUI / Telematic Visions" },
       { role: "DJ", names: "芥川 / 離 / anolis / dj woahhaus / Lee / nano odorine / Navi FlashBackAtmosphere / meweta / Ryota Nakamura / noryo / cfnslptu" },
       { role: "VJ", names: "avys / O.G.I / 葉山" }
     ]
@@ -226,8 +226,8 @@ var GIGS = [
     venue: "武蔵美鷹の台キャンパス 柔道場",
     time: "OPEN 10:00 / CLOSE 17:30",
     artists: [
-      { role: "DJ", names: "attkha~~~i / icopalmer / kenkensowaka / サトウツバサ / じゅん / josuna_sunada / セノオリョウタ / 高橋祐介 / tegadeteru / Telematic Visions / DJ HMNZM (naco+chiho+meweta) / トマトざえもん / ヌーサイド / pnnikin / 光 / 藤大根 / ameizin" },
-      { role: "live", names: "イーハトーブ / 馬 / ギザドド / サトウツバサ / スイミング / セノオリョウタ / 光 / ｱﾒﾉﾁ ﾕｷ / Djubumba / トマトざえもん / なべこ / 能條良馬 / ば〜ぬめぬふぁふぇりふぉ / バナナ / 廣野大地 / pukha pukha / ポイズン山田 / 蛍の光 / momdadmefriends / ろくろ" }
+      { role: "DJ", names: "attkh~~~i / icopalmer / kenkensowaka / サトウツバサ / じゅん / josuna_sunada / セノオリョウタ / 高橋祐介 / tegadeteru / Telematic Visions / DJ HMNZM (naco+chiho+meweta) / トマトざえもん / ヌーサイド / pnnikin / 光 / 藤大根 / ameizin" },
+      { role: "live", names: "イーハトーブ / 馬 / ギザドド / サトウツバサ / スイミング / セノオリョウタ / 光 / ｱﾒﾉﾁ ﾕｷ / DjuBumba / トマトざえもん / なべこ / 能條良馬 / ば〜ぬめぬふぁふぇりふぉ / バナナ / 廣野大地 / Pukha Pukha / ポイズン山田 / 蛍の光 / momdadmefriends / ろくろ" }
     ]
   },
   {
@@ -247,7 +247,7 @@ var GIGS = [
     venue: "恵比寿BATICA",
     time: "OPEN 18:00 / CLOSE 23:00",
     artists: [
-      { role: "live", names: "goku sasaki / in-mark / the DRO initiation / liminal mafia / iga / 倫瑠 / Karavi Roushi" },
+      { role: "live", names: "goku sasaki / in-mark / the DRO initiation / Liminal Mafia / iga / 倫瑠 / Karavi Roushi" },
       { role: "DJ", names: "NordOst / meweta / S3R4PH / .mpt / NOWBU / satoeu" }
     ]
   },
@@ -297,7 +297,7 @@ var GIGS = [
     venue: "幡ヶ谷FORESTLIMIT",
     time: "OPEN 16:00 / CLOSE 22:40",
     artists: [
-      { role: "DJ", names: "YONEDA / 144p / fuluca / Seth / DREAMFIGHTCLUB / 死没 / nmsg / Kazuma / weB / Michael" }
+      { role: "DJ", names: "YONEDA / 144p / fuluca / Seth / DREAM FIGHT CLUB / 死没 / nmsg / Kazuma / weB / Michael" }
     ]
   },
   {
@@ -339,7 +339,7 @@ var GIGS = [
     venue: "saloon",
     time: "OPEN 23:00",
     artists: [
-      { role: "act", names: "Big Animal Theory / djubumba / DubGuy (Uh-U!) / moge! / RYUSEI / 多様な価値観 / meweta×Reo" }
+      { role: "act", names: "Big Animal Theory / DjuBumba / DubGuy (Uh-U!) / moge! / RYUSEI / 多様な価値観 / meweta×Reo" }
     ]
   },
   {
