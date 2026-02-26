@@ -13,6 +13,25 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-03-13",
+    event: "RELAXXXXXXXX",
+    venue: "高円寺KNOCK",
+    time: "OPEN 19:00",
+    artists: [
+      { role: "DJ", names: "meweta / 6cm / なべこ" }
+    ]
+  },
+  {
+    date: "2026-03-12",
+    event: "SUN",
+    venue: "阿佐ヶ谷DRIFT",
+    time: "18:00 - 23:20",
+    artists: [
+      { role: "VJ", names: "強盗" },
+      { role: "DJ", names: "ario / Ishiwata Kota B2B りやん / LunR++ / meweta / M1HouseSplit / ShoN / S3R4PH (Budots Set) / ドラゴン" }
+    ]
+  },
+  {
     date: "2026-03-06",
     event: "00parts",
     venue: "CIRCUS TOKYO",
