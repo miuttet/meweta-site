@@ -46,8 +46,8 @@ html {
 body {
   background-color: var(--bg);
   color: var(--text);
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
   line-height: 1.6;
 }
 
@@ -66,18 +66,19 @@ a:hover {
   max-width: 680px;
   margin: 0 auto;
   padding: 60px 24px 80px;
+  overflow-x: hidden;
 }
 
 /* Header */
 header {
-  margin-bottom: 48px;
+  margin-bottom: 56px;
 }
 
 .site-title {
-  font-size: 22px;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  margin-bottom: 12px;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin-bottom: 16px;
 }
 
 .site-title a {
@@ -91,9 +92,8 @@ nav {
 }
 
 nav a {
-  font-size: 13px;
+  font-size: 12px;
   color: var(--muted);
-  letter-spacing: 0.03em;
 }
 
 nav a:hover {
@@ -103,14 +103,15 @@ nav a:hover {
 
 nav a.active {
   color: var(--text);
-  border-bottom: 1px solid var(--text);
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 /* Divider */
 hr {
   border: none;
-  border-top: 1px solid var(--border);
-  margin: 32px 0;
+  border-top: 2px solid var(--text);
+  margin: 40px -24px;
 }
 
 /* Main content */
@@ -118,43 +119,28 @@ main {
   min-height: 300px;
 }
 
-/* Section heading */
+/* Section heading — big and bleeding left */
 .section-label {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  text-transform: lowercase;
+  color: var(--text);
+  line-height: 1;
+  margin-bottom: 24px;
+  margin-left: -24px;
+}
+
+/* Nested section labels (jp/en in about) stay small */
+.about-text .section-label {
   font-size: 11px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--muted);
-  margin-bottom: 20px;
-}
-
-/* Home page */
-.intro {
-  margin-bottom: 40px;
-}
-
-.intro p {
-  color: var(--muted);
-  font-size: 14px;
-  max-width: 480px;
-}
-
-.latest-label {
-  font-size: 11px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--muted);
-  margin-bottom: 12px;
-}
-
-.latest-title {
-  font-size: 16px;
   font-weight: 400;
-  margin-bottom: 4px;
-}
-
-.latest-meta {
-  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
   color: var(--muted);
+  margin-left: 0;
+  margin-bottom: 8px;
+  line-height: 1.6;
 }
 
 /* Gig list */
@@ -163,13 +149,14 @@ main {
 }
 
 .gig-item {
-  padding: 20px 0;
-  border-bottom: 1px solid var(--border);
+  padding: 8px 0;
 }
 
-.gig-item:first-child {
-  border-top: 1px solid var(--border);
-}
+/* Staggered left indentation */
+.gig-list .gig-item:nth-child(4n+1) { margin-left: 0; }
+.gig-list .gig-item:nth-child(4n+2) { margin-left: 48px; }
+.gig-list .gig-item:nth-child(4n+3) { margin-left: 16px; }
+.gig-list .gig-item:nth-child(4n+4) { margin-left: 72px; }
 
 /* フライヤーあり */
 .gig-item.has-flyer {
@@ -201,21 +188,22 @@ main {
 .gig-info {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 2px;
 }
 
 .gig-event {
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 .gig-venue {
-  font-size: 12px;
+  font-size: 11px;
   color: var(--muted);
 }
 
 .gig-date {
-  font-size: 12px;
+  font-size: 11px;
   color: var(--muted);
   white-space: nowrap;
   flex-shrink: 0;
@@ -224,6 +212,7 @@ main {
 .no-events {
   color: var(--muted);
   font-size: 13px;
+  font-weight: 400;
 }
 
 /* Mix list */
@@ -249,12 +238,13 @@ main {
 }
 
 .mix-title {
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 .mix-meta {
-  font-size: 12px;
+  font-size: 11px;
   color: var(--muted);
   white-space: nowrap;
   flex-shrink: 0;
@@ -283,7 +273,7 @@ main {
 }
 
 .contact-list li {
-  padding: 12px 0;
+  padding: 10px 0;
   border-bottom: 1px solid var(--border);
   display: flex;
   gap: 24px;
@@ -303,7 +293,7 @@ main {
 }
 
 .contact-list a {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 /* CARESS page */
@@ -312,12 +302,12 @@ main {
 }
 
 .event-item {
-  padding: 28px 0;
-  border-bottom: 1px solid var(--border);
+  padding: 32px 0;
+  border-bottom: 2px solid var(--text);
 }
 
 .event-item:first-child {
-  border-top: 1px solid var(--border);
+  border-top: 2px solid var(--text);
 }
 
 .event-header {
@@ -325,21 +315,22 @@ main {
 }
 
 .event-title {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
   margin-bottom: 6px;
   display: block;
 }
 
 .event-date {
-  font-size: 12px;
+  font-size: 11px;
   color: var(--muted);
   display: block;
   margin-bottom: 2px;
 }
 
 .event-venue {
-  font-size: 12px;
+  font-size: 11px;
   color: var(--muted);
   display: block;
 }
@@ -402,7 +393,7 @@ main {
 
 .event-info-block {
   min-width: 180px;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.8;
   color: var(--muted);
 }
@@ -415,7 +406,7 @@ main {
   margin-top: 20px;
   padding-top: 16px;
   border-top: 1px solid var(--border);
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.8;
   color: var(--muted);
 }
@@ -438,10 +429,10 @@ main {
 }
 
 .gig-details-inner {
-  padding-top: 14px;
+  padding-top: 12px;
   border-top: 1px solid var(--border);
-  margin-top: 14px;
-  font-size: 12px;
+  margin-top: 10px;
+  font-size: 11px;
   color: var(--muted);
   line-height: 1.8;
 }
@@ -497,7 +488,7 @@ main {
 footer {
   margin-top: 80px;
   padding-top: 24px;
-  border-top: 1px solid var(--border);
+  border-top: 2px solid var(--text);
   font-size: 12px;
   color: var(--muted);
 }
