@@ -27,8 +27,9 @@ var GIGS = [
     venue: "阿佐ヶ谷DRIFT",
     time: "18:00 - 23:20",
     artists: [
+      { role: "DJ", names: "ario / Ishiwata Kota B2B りやん / LunR++ / meweta / M1HouseSplit / ShoN / S3R4PH (Budots Set) / ドラゴン" },
       { role: "VJ", names: "強盗" },
-      { role: "DJ", names: "ario / Ishiwata Kota B2B りやん / LunR++ / meweta / M1HouseSplit / ShoN / S3R4PH (Budots Set) / ドラゴン" }
+      
     ]
   },
   {
