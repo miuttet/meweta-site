@@ -13,6 +13,16 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-03-11",
+    event: "K/A/T/O MASSACRE vol.568",
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 18:00",
+    artists: [
+      { role: "SPECIAL GUEST", names: "FRENQUENCY" },
+      { role: "DJ", names: "eijin / MEGURO / meweta / moemiki / moge! / SAUCEMAN / sazablizry / Sofar" }
+    ]
+  },
+  {
     date: "2026-03-13",
     event: "RELAXXXXXXXX",
     venue: "高円寺KNOCK",
