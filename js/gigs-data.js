@@ -1,5 +1,15 @@
 var GIGS = [
   {
+    date: "2026-04-09",
+    event: "CARESS WIND",
+    isCaress: true,
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 19:00",
+    artists: [
+      { role: "DJ", names: "COMPUMA / melody lazona / meweta" }
+    ]
+  },
+  {
     date: "2026-03-27",
     event: "ほしのおと × CARESS",
     isCaress: true,
