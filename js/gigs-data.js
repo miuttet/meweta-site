@@ -6,7 +6,7 @@ var GIGS = [
     venue: "幡ヶ谷FORESTLIMIT",
     time: "OPEN 19:00",
     artists: [
-      { role: "DJ", names: "COMPUMA / melody lazona / meweta" }
+      { role: "DJ", names: "COMPUMA / DJ melody / lazona / meweta" }
     ]
   },
   {
