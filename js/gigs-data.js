@@ -1,5 +1,15 @@
 var GIGS = [
   {
+    date: "2026-04-11",
+    event: "ゆわさるおふせよvol.3",
+    venue: "阿佐ヶ谷DRIFT",
+    time: "18:00 - 23:40",
+    artists: [
+      { role: "DJ", names: "愛 / 61 / @cfnslptu / 0xygen / meweta / netanoiyai / Ziziphus Jujuba / S3R4PH" },
+      { role: "popup", names: "denko / S3R4PH" }
+    ]
+  },
+  {
     date: "2026-04-09",
     event: "CARESS WIND",
     isCaress: true,
