@@ -1,5 +1,14 @@
 var GIGS = [
   {
+    date: "2026-04-10",
+    event: "イスカリオテpre. CRCM 5",
+    venue: "LIVE HAUS",
+    time: "23:30-",
+    artists: [
+      { role: "DJ", names: "anolis / @cfnslptu / Floor Drunker / meweta / ptf_boi / 津田 / nerdhispeed in the cockpit i'ma DJ" }
+    ]
+  },
+  {
     date: "2026-04-11",
     event: "ゆわさるおふせよvol.3",
     venue: "阿佐ヶ谷DRIFT",
