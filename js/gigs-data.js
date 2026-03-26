@@ -1,14 +1,5 @@
 var GIGS = [
   {
-    date: "2026-04-10",
-    event: "イスカリオテpre. CRCM 5",
-    venue: "LIVE HAUS",
-    time: "23:30-",
-    artists: [
-      { role: "DJ", names: "anolis / @cfnslptu / Floor Drunker / meweta / ptf_boi / 津田 / nerdhispeed in the cockpit i'ma DJ" }
-    ]
-  },
-  {
     date: "2026-04-11",
     event: "ゆわさるおふせよvol.3",
     venue: "阿佐ヶ谷DRIFT",
@@ -16,6 +7,15 @@ var GIGS = [
     artists: [
       { role: "DJ", names: "愛 / 61 / @cfnslptu / 0xygen / meweta / netanoiyai / Ziziphus Jujuba / S3R4PH" },
       { role: "popup", names: "denko / S3R4PH" }
+    ]
+  },
+  {
+    date: "2026-04-10",
+    event: "イスカリオテpre. CRCM 5",
+    venue: "LIVE HAUS",
+    time: "23:30-",
+    artists: [
+      { role: "DJ", names: "anolis / @cfnslptu / Floor Drunker / meweta / ptf_boi / 津田 / nerdhispeed in the cockpit i'ma DJ" }
     ]
   },
   {
