@@ -1,5 +1,14 @@
 var GIGS = [
   {
+    date: "2026-04-15",
+    event: "生活",
+    venue: "中野HeavySickZero",
+    time: "OPEN 19:00 / CLOSE 24:00",
+    artists: [
+      { role: "DJ", names: "DJストレス / meweta / lil peace" }
+    ]
+  },
+  {
     date: "2026-04-11",
     event: "ゆわさるおふせよvol.3",
     venue: "阿佐ヶ谷DRIFT",
