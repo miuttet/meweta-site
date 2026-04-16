@@ -20,7 +20,7 @@ var GIGS = [
   {
     date: "2026-04-15",
     event: "生活",
-    venue: "中野HeavySickZero",
+    venue: "中野HeavySick Zero",
     time: "OPEN 19:00 / CLOSE 24:00",
     artists: [
       { role: "DJ", names: "DJストレス / meweta / lil peace" }
@@ -114,7 +114,7 @@ var GIGS = [
     time: "OPEN 18:00 / CLOSE 22:00",
     artists: [
       { role: "live", names: "lymph / P'ortable room™︎ / in-mark / 志見祥" },
-      { role: "DJ", names: "Lil Peace / cfnslptu / meweta" }
+      { role: "DJ", names: "lil peace / @cfnslptu / meweta" }
     ]
   },
   {
@@ -174,7 +174,7 @@ var GIGS = [
     artists: [
       { role: "release live", names: "agul" },
       { role: "live", names: "Ash Won / iga / Xamd / in-mark / CALLMEJEI / Child Plate Peops" },
-      { role: "DJ", names: "Gen Yamada / カゲヤマ / ユウゾウ / KENMA / Lil Peace / 超越×0xygen / meweta / tragicriver" }
+      { role: "DJ", names: "Gen Yamada / カゲヤマ / ユウゾウ / KENMA / lil peace / 超越×0xygen / meweta / tragicriver" }
     ]
   },
   {
@@ -212,7 +212,7 @@ var GIGS = [
     time: "OPEN 17:00 / CLOSE 05:00",
     artists: [
       { role: "live", names: "DjuBumba×超越 / KAIRUI / Telematic Visions" },
-      { role: "DJ", names: "芥川 / 離 / anolis / dj woahhaus / Lee / nano odorine / Navi FlashBackAtmosphere / meweta / Ryota Nakamura / noryo / cfnslptu" },
+      { role: "DJ", names: "芥川 / 離 / anolis / dj woahhaus / Lee / nano odorine / Navi FlashBackAtmosphere / meweta / Ryota Nakamura / noryo / @cfnslptu" },
       { role: "VJ", names: "avys / O.G.I / 葉山" }
     ]
   },
@@ -233,7 +233,7 @@ var GIGS = [
     venue: "clubasia 2F",
     time: "OPEN 23:00",
     artists: [
-      { role: "DJ", names: "2aby / 489 / DREAM FIGHT CLUB (meweta & 夏至) / isjm / Lil Peace / Pussycats (Lo-Fi & unkokitty) / Y2M4K3R / night pools" },
+      { role: "DJ", names: "2aby / 489 / DREAM FIGHT CLUB (meweta & 夏至) / isjm / lil peace / Pussycats (Lo-Fi & unkokitty) / Y2M4K3R / night pools" },
       { role: "VJ", names: "刀匠" }
     ]
   },
@@ -335,7 +335,7 @@ var GIGS = [
     time: "OPEN 18:00",
     artists: [
       { role: "live", names: "honninnman / Miku The Dude / Whoopee Bomb" },
-      { role: "DJ", names: "Lil Peace / liminal mafia / misa nakamura / meweta / morningeek / sazablizry / suppa micro panchop / DJストレス / Ziziphus Jujuba / 宇宙チンチラ / 坂田律子" }
+      { role: "DJ", names: "lil peace / liminal mafia / misa nakamura / meweta / morningeek / sazablizry / suppa micro panchop / DJストレス / Ziziphus Jujuba / 宇宙チンチラ / 坂田律子" }
     ]
   },
   {
