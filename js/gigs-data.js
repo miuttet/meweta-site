@@ -549,7 +549,7 @@ var GIGS = [
     venue: "幡ヶ谷FORESTLIMIT",
     time: "OPEN 23:00 / CLOSE 05:00",
     artists: [
-      { role: "DJ", names: "BASiRiNO / dj soul Prarn / suwakazuya / Veronica(QiA×ケニアの宴) / もふもふパニック / meweta" },
+      { role: "DJ", names: "BASiRiNO / dj soul / Prarn / suwakazuya / Veronica(QiA×ケニアの宴) / もふもふパニック / meweta" },
       { role: "VJ", names: "Ni" }
     ]
   },
