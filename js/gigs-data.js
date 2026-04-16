@@ -1,5 +1,14 @@
 var GIGS = [
   {
+    date: "2026-05-03",
+    event: "kepra vol.2",
+    venue: "LIVE HAUS Shimokitazawa",
+    time: "17:00 - 23:00",
+    artists: [
+      { role: "DJ", names: "juju / Lo-Fi / meweta / MIKASA / sleepra / u- / 多様な価値観" }
+    ]
+  },
+  {
     date: "2026-04-28",
     event: "Local Point vol.22",
     venue: "SPACE TOKYO",
