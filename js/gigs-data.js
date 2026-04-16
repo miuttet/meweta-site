@@ -1,5 +1,14 @@
 var GIGS = [
   {
+    date: "2026-04-28",
+    event: "Local Point vol.22",
+    venue: "SPACE TOKYO",
+    time: "15:30 - 23:00",
+    artists: [
+      { role: "DJ", names: "covaltex / dewylatte / DJあばれ / inaharu / meweta / popunkick / RealGal / sanana / tora14 / zeqoo / エスカリボルグ / 刈-マサカリ / しのてるみ / 多様な価値観 / もぐもぐ" }
+    ]
+  },
+  {
     date: "2026-04-15",
     event: "生活",
     venue: "中野HeavySickZero",
