@@ -212,7 +212,7 @@ var GIGS = [
     time: "OPEN 17:00 / CLOSE 05:00",
     artists: [
       { role: "live", names: "DjuBumba×超越 / KAIRUI / Telematic Visions" },
-      { role: "DJ", names: "芥川 / 離 / anolis / dj woahhaus / Lee / nano odorine / Navi FlashBackAtmosphere / meweta / Ryota Nakamura / noryo / @cfnslptu" },
+      { role: "DJ", names: "芥川 / ～離 / anolis / dj woahhaus / Lee / nano odorine / Navi FlashBackAtmosphere / meweta / Ryota Nakamura / noryo / @cfnslptu" },
       { role: "VJ", names: "avys / O.G.I / 葉山" }
     ]
   },
@@ -223,7 +223,7 @@ var GIGS = [
     venue: "幡ヶ谷FORESTLIMIT",
     time: "OPEN 23:59",
     artists: [
-      { role: "DJ", names: "eijin / Ethic / kiyota / 夏至 / xuan / 星山星子 / meweta" },
+      { role: "DJ", names: "eijin / Ethic / kiyota / 夏至 / 星山星子 / meweta" },
       { role: "VJ", names: "Ni" }
     ]
   },
