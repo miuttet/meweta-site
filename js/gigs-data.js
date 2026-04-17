@@ -18,6 +18,15 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-04-18",
+    event: "わたしたちののぞむものは",
+    venue: "幡ヶ谷ニューマタンゴ",
+    time: "OPEN 21:00",
+    artists: [
+      { role: "DJ", names: "naco gotoh / chiho satoh / suwakazuya / meweta" }
+    ]
+  },
+  {
     date: "2026-04-15",
     event: "生活",
     venue: "中野HeavySick Zero",
