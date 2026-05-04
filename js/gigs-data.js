@@ -752,5 +752,43 @@ var GIGS = [
     artists: [
       { role: "act", names: "戦車と花 / fogsettings / One Boiling Point(DJ set) / RealGal / vq / atri" }
     ]
+  },
+  {
+    date: "2024-12-18",
+    event: "imu vol.7",
+    venue: "PlasticTheater",
+    time: "OPEN 19:00",
+    artists: [
+      { role: "Guest DJ", names: "orbtl strk / meweta / ou (live)" },
+      { role: "others", names: "Amphaloss. (live) / nemko cvr / DREAM FIGHT CLUB (meweta b2b 夏至) / Labouré (もふもふパニックb2b 夏至)" }
+    ]
+  },
+  {
+    date: "2024-12-15",
+    event: "nuzzle",
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 17:00 / CLOSE 22:30",
+    artists: [
+      { role: "live", names: "Saren / 堀池ゆめぁ / mareno!" },
+      { role: "DJ", names: "pootee / ～離 / myein / meweta / NordOst" }
+    ]
+  },
+  {
+    date: "2024-11-23",
+    event: "Local Point vol.11",
+    venue: "Zubar Shibuya",
+    time: "23:00 - 05:00",
+    artists: [
+      { role: "DJ", names: "勇と戦車 / セックスホビー / フェラーリ / 倫理 / snobo / Sofar" }
+    ]
+  },
+  {
+    date: "2024-10-12",
+    event: "Local Point vol.10",
+    venue: "Zubar Shibuya",
+    time: "23:00 - 05:00",
+    artists: [
+      { role: "DJ", names: "nano odorine / Ryota Nakamura / 性科 / iyoyang / meweta / Nokia / suleiman.jp" }
+    ]
   }
 ];
