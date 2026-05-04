@@ -811,12 +811,34 @@ var GIGS = [
     ]
   },
   {
+    date: "2024-09-17",
+    event: "点灯",
+    venue: "PlasticTheater",
+    time: "START 19:30",
+    artists: [
+      { role: "act", names: "fastest sea cucumber / mai / Manasikatama / meweta / 惣菜部門" },
+      { role: "video", names: "志伸 / 豊平区民toyohirakumin" }
+    ]
+  },
+  {
     date: "2024-06-18",
     event: "Local Point vol.7",
     venue: "Zubar Shibuya",
     time: "18:00 - 23:00",
     artists: [
       { role: "DJ", names: "C-MEGA / meweta / n4f / nerdhispeed in the cockpit i'ma DJ / RealGal / 水母娘娘" }
+    ]
+  },
+  {
+    date: "2024-05-29",
+    event: "K/A/T/O MASSACRE vol.478",
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 18:00",
+    artists: [
+      { role: "Special Guest DJ", names: "DJ PAYPAL" },
+      { role: "live", names: "jvnpey(AV set) / untitled01" },
+      { role: "DJ", names: "64controll / Ace-up / dontkillvibes / meweta / seba / tomodachi100" },
+      { role: "VJ", names: "suleiman.jp" }
     ]
   }
 ];
