@@ -602,6 +602,16 @@ var GIGS = [
     ]
   },
   {
+    date: "2025-04-19",
+    event: "改造ROM",
+    venue: "中野HeavySick Zero",
+    time: "OPEN 23:00 / CLOSE 05:00",
+    artists: [
+      { role: "DJ", names: "infpinfpsex / kiyota / meweta / M1HouseSplit / Ranz Jigoku / ああ中村 / シンゲリかけ太郎 / 嘘の名前 / 61" },
+      { role: "VJ", names: "infpinfpsex / 嘘の名前 / 日向ぼこ / 优Q123（imino x 強盗）" }
+    ]
+  },
+  {
     date: "2025-04-12",
     event: "CARESS vol.3",
     isCaress: true,
@@ -610,6 +620,17 @@ var GIGS = [
     artists: [
       { role: "DJ", names: "iichiro taya / illequal / moge! / ｎｏｎｏｋａ / Oyubi / Rico(LAUSBUB) Hybrid Set / meweta" },
       { role: "VJ", names: "yamagamijin" }
+    ]
+  },
+  {
+    date: "2025-04-05",
+    event: "Jailbreak vol.1",
+    venue: "Club OctBaSS. Tsukuba",
+    time: "17:00 - 22:15",
+    artists: [
+      { role: "live", names: "popo" },
+      { role: "DJ", names: "つくばネットワーク / カゲヤマ ユウゾウ∅ / シンゲリかけ太郎 / ほしのおと / 殺人DJアギト / meweta" },
+      { role: "VJ", names: "matsuki / di0spyros" }
     ]
   },
   {
