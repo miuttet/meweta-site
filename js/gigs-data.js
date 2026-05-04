@@ -35,7 +35,7 @@ var GIGS = [
     venue: "SPACE TOKYO",
     time: "15:30 - 23:00",
     artists: [
-      { role: "DJ", names: "covaltex / dewylatte / DJあばれ / inaharu / meweta / popunkick / RealGal / sanana / tora14 / zeqoo / エスカリボルグ / 刈-マサカリ / しのてるみ / 多様な価値観 / もぐもぐ" }
+      { role: "DJ", names: "covaltex / dewylatte / DJあばれ / inaharu / meweta / popunkick / RealGal / sanana / tora14 / Zeqoo / エスカリボルグ / 刈-マサカリ / しのてるみ / 多様な価値観 / もぐもぐ" }
     ]
   },
   {
@@ -153,7 +153,7 @@ var GIGS = [
     venue: "中野HeavySick Zero",
     time: "OPEN 23:00",
     artists: [
-      { role: "DJ", names: "cfnslptu / ato夢 / meweta / mionn / ShoN / 神品密売サービス" }
+      { role: "DJ", names: "@cfnslptu / ato夢 / meweta / mionn / ShoN / 神品密売サービス" }
     ]
   },
   {
@@ -232,7 +232,7 @@ var GIGS = [
     venue: "幡ヶ谷FORESTLIMIT",
     time: "OPEN 23:00 / CLOSE 05:30",
     artists: [
-      { role: "DJ", names: "RANNA / nacogotoh / meweta / Xamd / pointhope / MUNÉO × piccolo / unkokitty" }
+      { role: "DJ", names: "RANNA / naco gotoh / meweta / Xamd / pointhope / MUNÉO × piccolo / unkokitty" }
     ]
   },
   {
@@ -303,7 +303,7 @@ var GIGS = [
     venue: "Kagurane",
     time: "OPEN 18:00 / START 18:00",
     artists: [
-      { role: "DJ", names: "DJ 悦 / meweta / Sofa" },
+      { role: "DJ", names: "DJ 悦 / meweta / Sofar" },
       { role: "live", names: "Xamd / Zoetrope" }
     ]
   },
@@ -365,7 +365,7 @@ var GIGS = [
     time: "OPEN 18:00",
     artists: [
       { role: "live", names: "honninnman / Miku The Dude / Whoopee Bomb" },
-      { role: "DJ", names: "lil peace / liminal mafia / misa nakamura / meweta / morningeek / sazablizry / suppa micro panchop / DJストレス / Ziziphus Jujuba / 宇宙チンチラ / 坂田律子" }
+      { role: "DJ", names: "lil peace / Liminal Mafia / misa nakamura / meweta / morningeek / sazablizry / suppa micro panchop / DJストレス / Ziziphus Jujuba / 宇宙チンチラ / 坂田律子" }
     ]
   },
   {
@@ -639,7 +639,7 @@ var GIGS = [
     venue: "Zubar Shibuya",
     time: "18:00 - 23:00",
     artists: [
-      { role: "DJ", names: "ansui / DJ悦 / meweta / SOCPdagger / エスカリボルグ" }
+      { role: "DJ", names: "ansui / DJ 悦 / meweta / SOCPdagger / エスカリボルグ" }
     ]
   },
   {
@@ -671,7 +671,7 @@ var GIGS = [
     venue: "幡ヶ谷FORESTLIMIT",
     time: "OPEN 18:30",
     artists: [
-      { role: "special guest", names: "Frenquency (International Chrome / 4NC¥) / HADA (from Argentine) / screenage dj (Seedlink⁺)" },
+      { role: "special guest", names: "FRENQUENCY (International Chrome / 4NC¥) / HADA (from Argentine) / screenage dj (Seedlink⁺)" },
       { role: "live", names: "MK woop" },
       { role: "DJ", names: "勇と戦車 / moge! / 坂田律子 × moemiki / SYSTEMS" }
     ]
@@ -741,7 +741,7 @@ var GIGS = [
     event: "庭/n/i/w/a MASSACRE",
     venue: "幡ヶ谷FORESTLIMIT",
     artists: [
-      { role: "act", names: "toulavi / BirthBySleep(寝坊主,燻&yoo!) / 瀬梨亜 / that same street / 湖の日(safmusic&One Boiling Point) / nano odorine / liminal mafia / fogsettings / DREAM FIGHT CLUB(meweta vs 夏至)" }
+      { role: "act", names: "toulavi / BirthBySleep(寝坊主,燻&yoo!) / 瀬梨亜 / that same street / 湖の日(safmusic&One Boiling Point) / nano odorine / Liminal Mafia / fogsettings / DREAM FIGHT CLUB(meweta vs 夏至)" }
     ]
   },
   {
@@ -788,7 +788,7 @@ var GIGS = [
     venue: "幡ヶ谷FORESTLIMIT",
     time: "10/30 13:00 - 10/31 13:00",
     artists: [
-      { role: "DJ", names: "まさひろ / 小夜子 / suppa micro panchop / じんじん / Tarah Kikuchi / nano odorine / Nizika Tamura / dj cookie boy / mermaid / tegadeteru / 沖真秀 / suzukiiiiiiiiii x knd with アレクサンドリア斉藤 / deadfish eyes / LSTNGT / Wa?ste / shiranaihanaL / AIWABEATZ / meizin / HARETSU / 性科 / Untitled01 / 脳BRAIN / メガネ＆ケンジルビエン / strawberrysex / CHIYORI × YAMAAN / MUNÉO / 坂田律子 / MELEETIME / Sonia Lagoon / Sakana / Beenie Pimp / tmjclub / miute / FELINE / 宇宙チンチラ / テンテンコ / kirin / 7e / Hënkį / n o n o k a / HAIZAI AUDIO / Kenshin/CORE / Ryota Nakamura / ほしのおと / 松戸ビリーバー / meweta / vq / Dirt Dirt / 駒澤零 / yayoi / 〜離 / ELBISMANSION&堀池ゆめぁ / pnnikin / koeosaeme / Kenshi / 武田俊輔 / suwaWander" }
+      { role: "DJ", names: "まさひろ / 小夜子 / suppa micro panchop / じんじん / Tarah Kikuchi / nano odorine / Nizika Tamura / dj cookie boy / mermaid / tegadeteru / 沖真秀 / suzukiiiiiiiiii x knd with アレクサンドリア斉藤 / deadfish eyes / LSTNGT / Wa?ste / shiranaihanaL / AIWABEATZ / meizin / HARETSU / 性科 / untitled01 / 脳BRAIN / メガネ＆ケンジルビエン / strawberrysex / CHIYORI × YAMAAN / MUNÉO / 坂田律子 / MELEETIME / Sonia Lagoon / Sakana / Beenie Pimp / tmjclub / miute / FELINE / 宇宙チンチラ / テンテンコ / kirin / 7e / Hënkį / ｎｏｎｏｋａ / HAIZAI AUDIO / Kenshin/CORE / Ryota Nakamura / ほしのおと / 松戸ビリーバー / meweta / vq / Dirt Dirt / 駒澤零 / yayoi / 〜離 / ELBISMANSION&堀池ゆめぁ / pnnikin / koeosaeme / Kenshi / 武田俊輔 / suwaWander" }
     ]
   },
   {
@@ -797,7 +797,7 @@ var GIGS = [
     venue: "Zubar Shibuya",
     time: "23:00 - 05:00",
     artists: [
-      { role: "DJ", names: "nano odorine / Ryota Nakamura / 性科 / iyoyang / meweta / Nokia / suleiman.jp" }
+      { role: "DJ", names: "nano odorine / Ryota Nakamura / 性科 / iyoyang / meweta / nokia / suleiman.jp" }
     ]
   },
   {
