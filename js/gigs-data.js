@@ -533,7 +533,7 @@ var GIGS = [
   },
   {
     date: "2025-06-13",
-    event: "DRIFT",
+    event: "勇の日 vol. 2 〜誕生日編〜",
     venue: "阿佐ヶ谷DRIFT",
     time: "19:30 - late",
     artists: [
