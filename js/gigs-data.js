@@ -593,6 +593,15 @@ var GIGS = [
     ]
   },
   {
+    date: "2025-04-28",
+    event: "Local Point vol.16",
+    venue: "Zubar Shibuya",
+    time: "17:00 - 23:00",
+    artists: [
+      { role: "DJ", names: "0num4(^^♪ / inaharu / landman / popunkick / RealGal / Reo / sanana / Zeqoo / 勇と戦車 / エスカリボルグ / 刈-マサカリ / 多様な価値観" }
+    ]
+  },
+  {
     date: "2025-04-12",
     event: "CARESS vol.3",
     isCaress: true,
