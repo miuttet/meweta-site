@@ -697,6 +697,34 @@ var GIGS = [
     ]
   },
   {
+    date: "2025-03-04",
+    event: "fragments / embrace Reception party",
+    venue: "東新宿 Love tko",
+    time: "OPEN 20:30",
+    artists: [
+      { role: "DJ", names: "Arow / meweta / moge! / naco gotoh" }
+    ]
+  },
+  {
+    date: "2025-02-25",
+    event: "sukima",
+    venue: "PlasticTheater",
+    time: "19:00 - 23:00",
+    artists: [
+      { role: "guest DJ", names: "meweta / Rico (LAUSBUB)" },
+      { role: "DJ", names: "AOI / nmsg / ui" }
+    ]
+  },
+  {
+    date: "2025-02-22",
+    event: "点灯 1st anniversary",
+    venue: "PlasticTheater",
+    time: "17:00 - 22:00",
+    artists: [
+      { role: "act", names: "yoyou / yuzuha / brain node / DREAM FIGHT CLUB (meweta vs 夏至) / mostin fantasy / ｎｏｎｏｋａ / もふもふパニック×東雲" }
+    ]
+  },
+  {
     date: "2025-02-15",
     event: "CARESS vol.1",
     isCaress: true,
@@ -706,6 +734,14 @@ var GIGS = [
       { role: "DAY / live", names: "ELBISMANSION / vq / 倫瑠" },
       { role: "DAY / DJ", names: "mostin fantasy / cellulose / noripi / meweta / 夏至" },
       { role: "NIGHT / DJ", names: "nano odorine / nemko cvr / sazablizry / seba / Xamd Hybrid Set / 死没" }
+    ]
+  },
+  {
+    date: "2025-02-05",
+    event: "庭/n/i/w/a MASSACRE",
+    venue: "幡ヶ谷FORESTLIMIT",
+    artists: [
+      { role: "act", names: "toulavi / BirthBySleep(寝坊主,燻&yoo!) / 瀬梨亜 / that same street / 湖の日(safmusic&One Boiling Point) / nano odorine / liminal mafia / fogsettings / DREAM FIGHT CLUB(meweta vs 夏至)" }
     ]
   }
 ];
