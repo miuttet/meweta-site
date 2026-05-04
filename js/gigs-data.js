@@ -643,6 +643,19 @@ var GIGS = [
     ]
   },
   {
+    date: "2025-03-29",
+    event: "さらば DIGAL offline",
+    venue: "CUBE (Roppongi)",
+    time: "OPEN 16:00",
+    artists: [
+      { role: "STAGE 0001 / live", names: "Traffic Jammies / 8bit Gang" },
+      { role: "STAGE 0001 / DJ", names: "fuluca / Midnight Runner / Sonia Lagoon / yaginiwa / デラ-experimental set- / ほしのおと" },
+      { role: "STAGE 0001 / VJ", names: "KaWa / 査察" },
+      { role: "STAGE 0010 / DJ", names: "勇と戦車 / 車 / 殺人DJアギト / citrus B2B DJ DEKAMESHIVIVE B2B DAI-NAGON" },
+      { role: "STAGE 0010 / VJ", names: "強盗 / 電気耳 / HB / TOTO-NKO" }
+    ]
+  },
+  {
     date: "2025-03-15",
     event: "CARESS vol.2",
     isCaress: true,
