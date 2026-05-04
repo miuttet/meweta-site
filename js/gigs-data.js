@@ -644,7 +644,7 @@ var GIGS = [
   },
   {
     date: "2025-03-29",
-    event: "さらば DIGAL offline",
+    event: "さらば DIGITAL OFFLINE",
     venue: "CUBE (Roppongi)",
     time: "OPEN 16:00",
     artists: [
