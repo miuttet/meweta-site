@@ -634,6 +634,15 @@ var GIGS = [
     ]
   },
   {
+    date: "2025-03-31",
+    event: "Local Point vol.15",
+    venue: "Zubar Shibuya",
+    time: "18:00 - 23:00",
+    artists: [
+      { role: "DJ", names: "ansui / DJ悦 / meweta / SOCPdagger / エスカリボルグ" }
+    ]
+  },
+  {
     date: "2025-03-15",
     event: "CARESS vol.2",
     isCaress: true,
