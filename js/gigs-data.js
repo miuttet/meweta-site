@@ -656,6 +656,27 @@ var GIGS = [
     ]
   },
   {
+    date: "2025-03-19",
+    event: "SPACE",
+    venue: "新宿SPACE",
+    time: "19:00 - 23:00",
+    artists: [
+      { role: "live", names: "Dubstract+Oscilogue" },
+      { role: "DJ", names: "meweta / NordOst / Rico (LAUSBUB) / tupuda" }
+    ]
+  },
+  {
+    date: "2025-03-19",
+    event: "K/A/T/O MASSACRE vol.519",
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 18:30",
+    artists: [
+      { role: "special guest", names: "Frenquency (International Chrome / 4NC¥) / HADA (from Argentine) / screenage dj (Seedlink⁺)" },
+      { role: "live", names: "MK woop" },
+      { role: "DJ", names: "勇と戦車 / moge! / 坂田律子 × moemiki / SYSTEMS" }
+    ]
+  },
+  {
     date: "2025-03-15",
     event: "CARESS vol.2",
     isCaress: true,
