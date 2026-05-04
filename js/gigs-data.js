@@ -379,7 +379,7 @@ var GIGS = [
   },
   {
     date: "2025-10-04",
-    event: "CARESS at WWWβ",
+    event: "CARESS feat.OBP",
     isCaress: true,
     venue: "WWWβ",
     time: "OPEN 23:30",
