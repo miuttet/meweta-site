@@ -1,5 +1,16 @@
 var GIGS = [
   {
+    date: "2026-06-20",
+    event: "404/CUDDLE",
+    venue: "KOBE RINKAITEN",
+    time: "17:00 - 23:00",
+    artists: [
+      { role: "act", names: "ウ山あまね / Saren / lymph / RAM FIGHTER / meweta / ptf boi / Imkaka / NordOst / 宇宙チンチラ" },
+      { role: "opening live", names: "mereo/霊伽" },
+      { role: "VJ", names: "sachia" }
+    ]
+  },
+  {
     date: "2026-05-03",
     event: "kepra vol.2",
     venue: "LIVE HAUS Shimokitazawa",
