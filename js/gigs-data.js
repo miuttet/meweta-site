@@ -1,7 +1,7 @@
 var GIGS = [
   {
     date: "2026-06-20",
-    event: "404/CUDDLE",
+    event: "【404/CUDDLE】",
     venue: "KOBE RINKAITEN",
     time: "17:00 - 23:00",
     artists: [
