@@ -743,5 +743,14 @@ var GIGS = [
     artists: [
       { role: "act", names: "toulavi / BirthBySleep(寝坊主,燻&yoo!) / 瀬梨亜 / that same street / 湖の日(safmusic&One Boiling Point) / nano odorine / liminal mafia / fogsettings / DREAM FIGHT CLUB(meweta vs 夏至)" }
     ]
+  },
+  {
+    date: "2024-12-28",
+    event: "ウラニワ",
+    venue: "cream shimokitazawa",
+    time: "17:00 - 22:00",
+    artists: [
+      { role: "act", names: "戦車と花 / fogsettings / One Boiling Point(DJ set) / RealGal / vq / atri" }
+    ]
   }
 ];
