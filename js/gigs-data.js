@@ -505,7 +505,7 @@ var GIGS = [
     venue: "PlasticTheater",
     time: "OPEN 23:00 / CLOSE 05:00",
     artists: [
-      { role: "DJ", names: "¥ØU$UK€ / ¥UK1MAT$U / Veronica / Katana / meweta / サトウツバサ / もふもふパニック / 夏至" },
+      { role: "DJ", names: "¥ØU$UK€¥UK1MAT$U / Veronica / Katana / meweta / サトウツバサ / もふもふパニック / 夏至" },
       { role: "live", names: "Amphaloss." },
       { role: "VJ", names: "もふもふパニック" }
     ]
