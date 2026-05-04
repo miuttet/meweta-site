@@ -799,5 +799,24 @@ var GIGS = [
     artists: [
       { role: "DJ", names: "nano odorine / Ryota Nakamura / 性科 / iyoyang / meweta / Nokia / suleiman.jp" }
     ]
+  },
+  {
+    date: "2024-09-28",
+    event: "Reminiscence Vol.1",
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 15:00 / CLOSE 21:00",
+    artists: [
+      { role: "ACT", names: "浅葱ねるな / サセガワ / KBSNK / H B / yuruyuru runtime / meweta / aosushi" },
+      { role: "VJ", names: "Ni / 査察 / chlumi" }
+    ]
+  },
+  {
+    date: "2024-06-18",
+    event: "Local Point vol.7",
+    venue: "Zubar Shibuya",
+    time: "18:00 - 23:00",
+    artists: [
+      { role: "DJ", names: "C-MEGA / meweta / n4f / nerdhispeed in the cockpit i'ma DJ / RealGal / 水母娘娘" }
+    ]
   }
 ];
