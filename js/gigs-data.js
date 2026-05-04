@@ -21,15 +21,6 @@ var GIGS = [
     ]
   },
   {
-    date: "2026-05-07",
-    event: "K/A/T/O MASSACRE vol.526",
-    venue: "幡ヶ谷FORESTLIMIT",
-    time: "OPEN 18:00",
-    artists: [
-      { role: "act", names: "#jesusclub / 高速音楽隊勇クルー / Laces b2b Merdeze b2b Velatix (Loner Online) / Pomaera / SPRAYBOX (DJ SET) / tomodachi100 / WADEWATTS（kegøn×文明）" }
-    ]
-  },
-  {
     date: "2026-05-03",
     event: "kepra vol.2",
     venue: "LIVE HAUS Shimokitazawa",
@@ -579,6 +570,15 @@ var GIGS = [
       { role: "live", names: "KAIRUI / Yoyou" },
       { role: "DJ", names: "aosushi / kanato / n4f / NordOst / meweta / myein" },
       { role: "VJ", names: "avys / HANBEE" }
+    ]
+  },
+  {
+    date: "2025-05-07",
+    event: "K/A/T/O MASSACRE vol.526",
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 18:00",
+    artists: [
+      { role: "act", names: "#jesusclub / 高速音楽隊勇クルー / Laces b2b Merdeze b2b Velatix (Loner Online) / Pomaera / SPRAYBOX (DJ SET) / tomodachi100 / WADEWATTS（kegøn×文明）" }
     ]
   },
   {
