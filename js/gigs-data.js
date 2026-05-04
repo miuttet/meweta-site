@@ -783,6 +783,15 @@ var GIGS = [
     ]
   },
   {
+    date: "2024-10-30",
+    event: "K/A/T/O MASSACRE vol.500",
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "10/30 13:00 - 10/31 13:00",
+    artists: [
+      { role: "DJ", names: "まさひろ / 小夜子 / suppa micro panchop / じんじん / Tarah Kikuchi / nano odorine / Nizika Tamura / dj cookie boy / mermaid / tegadeteru / 沖真秀 / suzukiiiiiiiiii x knd with アレクサンドリア斉藤 / deadfish eyes / LSTNGT / Wa?ste / shiranaihanaL / AIWABEATZ / meizin / HARETSU / 性科 / Untitled01 / 脳BRAIN / メガネ＆ケンジルビエン / strawberrysex / CHIYORI × YAMAAN / MUNÉO / 坂田律子 / MELEETIME / Sonia Lagoon / Sakana / Beenie Pimp / tmjclub / miute / FELINE / 宇宙チンチラ / テンテンコ / kirin / 7e / Hënkį / n o n o k a / HAIZAI AUDIO / Kenshin/CORE / Ryota Nakamura / ほしのおと / 松戸ビリーバー / meweta / vq / Dirt Dirt / 駒澤零 / yayoi / 〜離 / ELBISMANSION&堀池ゆめぁ / pnnikin / koeosaeme / Kenshi / 武田俊輔 / suwaWander" }
+    ]
+  },
+  {
     date: "2024-10-12",
     event: "Local Point vol.10",
     venue: "Zubar Shibuya",
