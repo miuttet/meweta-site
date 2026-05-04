@@ -11,6 +11,16 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-06-20",
+    event: "【404/CUDDLE】AfterParty",
+    venue: "KOBE Otohatoba",
+    time: "OPEN 23:00",
+    artists: [
+      { role: "live", names: "CVN / mosho / Pu$h! / Style 5." },
+      { role: "DJ", names: "meweta×NordOst / Imkaka / kiminosei / linterconnect / !ssA" }
+    ]
+  },
+  {
     date: "2026-05-03",
     event: "kepra vol.2",
     venue: "LIVE HAUS Shimokitazawa",
