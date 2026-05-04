@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>notes — meweta</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+
+    <header class="anim-slide">
+      <h1 class="site-title"><a href="index.html">meweta</a></h1>
+      <nav>
+        <a href="index.html">home</a>
+        <a href="about.html">about</a>
+        <a href="gigs.html">gigs</a>
+        <a href="mixes.html">mixes</a>
+        <a href="caress.html">caress</a>
+        <a href="notes.html" class="active">notes</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="section-label anim-slide">notes</div>
+      <ul class="note-list" id="note-list"></ul>
+    </main>
+
+    <footer>
+      &copy; meweta
+    </footer>
+
+  </div>
+  <script src="js/effects.js"></script>
+  <script src="js/notes-data.js"></script>
+  <script>
+    (function() {
+      var list = document.getElementById('note-list');
+
+      if (NOTES.length === 0) {
+        var li = document.createElement('li');
+        li.className = 'note-item anim-slide';
+        li.innerHTML = '<span class="note-body no-events">— coming soon</span>';
+        list.appendChild(li);
+        return;
+      }
+
+      var sorted = NOTES.slice().sort(function(a, b) {
+        return b.date.localeCompare(a.date);
+      });
+
+      sorted.forEach(function(note) {
+        var li = document.createElement('li');
+        li.className = 'note-item anim-slide';
+        li.innerHTML =
+          '<div class="note-header">' +
+            '<span class="note-date">' + note.date.replace(/-/g, '.') + '</span>' +
+          '</div>' +
+          '<p class="note-body">' + note.body + '</p>';
+        list.appendChild(li);
+      });
+    })();
+  </script>
+</body>
+</html>
