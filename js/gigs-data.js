@@ -688,6 +688,15 @@ var GIGS = [
     ]
   },
   {
+    date: "2025-03-08",
+    event: "Vice Versa",
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "23:00 - 04:30",
+    artists: [
+      { role: "DJ", names: "Ryota Nakamura / meweta / mlosims / Sayaka Botanic / Perila / Ziziphus Jujuba / ?meytél" }
+    ]
+  },
+  {
     date: "2025-02-15",
     event: "CARESS vol.1",
     isCaress: true,
