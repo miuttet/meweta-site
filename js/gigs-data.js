@@ -21,6 +21,18 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-06-13",
+    event: "RE:MADE×ROOM",
+    isCaress: true,
+    venue: "Studio REIMEI / Chofu CROSS",
+    time: "REIMEI OPEN 13:30 / START 14:00  CROSS OPEN 18:00",
+    artists: [
+      { role: "live", names: "computer fight / HEROES / MW / octopus nakamura / SAGOSAID / untitled01 / WarB. / 伊東篤宏 / 光分解 / 1/8計画" },
+      { role: "DJ", names: "lil peace / meweta / おしるこちゃん" },
+      { role: "food", names: "juliham / バングイバオベ" }
+    ]
+  },
+  {
     date: "2026-05-03",
     event: "kepra vol.2",
     venue: "LIVE HAUS Shimokitazawa",
