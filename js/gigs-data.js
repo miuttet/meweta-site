@@ -23,7 +23,6 @@ var GIGS = [
   {
     date: "2026-06-13",
     event: "RE:MADE×ROOM",
-    isCaress: true,
     venue: "Studio REIMEI / Chofu CROSS",
     time: "REIMEI OPEN 13:30 / START 14:00  CROSS OPEN 18:00",
     artists: [
