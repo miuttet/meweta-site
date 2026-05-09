@@ -495,6 +495,34 @@ main {
   transform: rotate(180deg);
 }
 
+/* Tour banner */
+.tour-banner {
+  border: 1px solid var(--text);
+  padding: 24px 28px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tour-banner-label {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.tour-banner-title {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+.tour-banner-sub {
+  font-size: 13px;
+  color: var(--muted);
+}
+
 /* Notes page */
 .note-list {
   list-style: none;
