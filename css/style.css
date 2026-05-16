@@ -502,6 +502,62 @@ main {
   font-size: 14px;
 }
 
+.tour-text {
+  margin-bottom: 20px;
+}
+
+.tour-map-wrap {
+  position: relative;
+  max-width: 220px;
+}
+
+.tour-map {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.japan-land path {
+  fill: #d0d0d0;
+  stroke: var(--border);
+  stroke-width: 1;
+  stroke-linejoin: round;
+}
+
+.tour-dot {
+  fill: var(--text);
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.tour-dot:hover {
+  opacity: 0.6;
+}
+
+.tour-popup {
+  display: none;
+  position: absolute;
+  background: var(--bg);
+  border: 1px solid var(--text);
+  padding: 10px 14px;
+  font-size: 12px;
+  line-height: 1.8;
+  pointer-events: none;
+  min-width: 130px;
+  z-index: 10;
+}
+
+.tour-popup-city {
+  display: block;
+  font-size: 13px;
+}
+
+.tour-popup-venue,
+.tour-popup-date {
+  display: block;
+  color: var(--muted);
+}
+
 /* Notes page */
 .note-list {
   list-style: none;
