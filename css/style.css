@@ -539,7 +539,7 @@ main {
 
 .flyer-card {
   cursor: pointer;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 4 / 5;
   overflow: hidden;
   background: var(--border);
   display: block;
@@ -570,6 +570,11 @@ main {
 }
 
 /* Event modal */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 .event-modal {
   position: fixed;
   inset: 0;
@@ -579,6 +584,7 @@ main {
   align-items: center;
   justify-content: center;
   padding: 24px;
+  animation: fadeIn 0.35s ease forwards;
 }
 
 .event-modal-inner {
@@ -590,6 +596,7 @@ main {
   display: flex;
   gap: 28px;
   padding: 28px;
+  animation: slideDown 0.35s ease forwards;
 }
 
 .event-modal-flyer {
