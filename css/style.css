@@ -499,7 +499,6 @@ main {
 .tour-banner {
   border: 1px solid var(--text);
   padding: 20px 24px;
-  margin-bottom: 40px;
   font-size: 14px;
 }
 
