@@ -43,6 +43,15 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-05-23",
+    event: "Local Point vol.23",
+    venue: "SPACE TOKYO",
+    time: "17:00 - 23:00",
+    artists: [
+      { role: "DJ", names: "dagrass / HPPDJ / juliham / meweta / sanana / かりん© / 多様な価値観" }
+    ]
+  },
+  {
     date: "2026-05-03",
     event: "kepra vol.2",
     venue: "LIVE HAUS Shimokitazawa",
