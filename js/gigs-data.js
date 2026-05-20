@@ -21,17 +21,6 @@ var GIGS = [
     ]
   },
   {
-    date: "2026-06-11",
-    event: "CARESS KNOT",
-    isCaress: true,
-    venue: "幡ヶ谷FORESTLIMIT",
-    time: "OPEN 19:00",
-    artists: [
-      { role: "live", names: "Takao" },
-      { role: "DJ", names: "cocoa / eminemsaiko / shinnosukeohira / meweta" }
-    ]
-  },
-  {
     date: "2026-06-13",
     event: "RE:MADE×ROOM",
     venue: "Studio REIMEI / Chofu CROSS",
@@ -40,6 +29,17 @@ var GIGS = [
       { role: "live", names: "computer fight / HEROES / MW / octopus nakamura / SAGOSAID / untitled01 / WarB. / 伊東篤宏 / 光分解 / 1/8計画" },
       { role: "DJ", names: "lil peace / meweta / おしるこちゃん" },
       { role: "food", names: "juliham / バングイバオベ" }
+    ]
+  },
+  {
+    date: "2026-06-11",
+    event: "CARESS KNOT",
+    isCaress: true,
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 19:00",
+    artists: [
+      { role: "live", names: "Takao" },
+      { role: "DJ", names: "cocoa / eminemsaiko / shinnosukeohira / meweta" }
     ]
   },
   {
