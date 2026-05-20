@@ -43,6 +43,15 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-05-31",
+    event: "afraid of water",
+    venue: "猫奈落",
+    time: "18:00 - 23:00",
+    artists: [
+      { role: "DJ", names: "atri / anolis / in the pool / meweta / 叡智の書 / 水母娘娘×curelica OS" }
+    ]
+  },
+  {
     date: "2026-05-23",
     event: "Local Point vol.23",
     venue: "SPACE TOKYO",
