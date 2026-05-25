@@ -38,7 +38,7 @@ var GIGS = [
     time: "OPEN 18:00 / CLOSE 23:00",
     artists: [
       { role: "live", names: "OKBOY / Karavi Roushi / Lilhana / P'ortable room™︎ / Lilly club / Sumi" },
-      { role: "DJ", names: "iga / Liesbet / meweta / NOWBU / Tasuku Kodaira / Not Sports! (Morningeek×lil peace)" }
+      { role: "DJ", names: "iga / Liesbet / meweta / NOWBU / Tasuku Kodaira / Not Sports! (morningeek×lil peace)" }
     ]
   },
   {
@@ -133,7 +133,7 @@ var GIGS = [
     venue: "LIVE HAUS",
     time: "23:30-",
     artists: [
-      { role: "DJ", names: "anolis / @cfnslptu / Floor Drunker / meweta / ptf_boi / 津田 / nerdhispeed in the cockpit i'ma DJ" }
+      { role: "DJ", names: "anolis / @cfnslptu / Floor Drunker / meweta / ptf boi / 津田 / nerdhispeed in the cockpit i'ma DJ" }
     ]
   },
   {
@@ -254,7 +254,7 @@ var GIGS = [
     time: "OPEN 23:00 / CLOSE 06:00",
     artists: [
       { role: "DJ", names: "meweta / S3R4PH / MARS89 / 宇宙チンチラ / Yurushite Nyan / Minami-no-shima" },
-      { role: "VJ", names: "Cue Kitazawa" }
+      { role: "VJ", names: "CUE KITAZAWA" }
     ]
   },
   {
