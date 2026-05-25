@@ -32,6 +32,16 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-06-19",
+    event: "洄游",
+    venue: "恵比寿BATICA",
+    time: "OPEN 18:00 / CLOSE 23:00",
+    artists: [
+      { role: "live", names: "OKBOY / Karavi Roushi / Lilhana / P'ortable room™︎ / Lilly club / Sumi" },
+      { role: "DJ", names: "iga / Liesbet / meweta / NOWBU / Tasuku Kodaira / Not Sports! (Morningeek×lil peace)" }
+    ]
+  },
+  {
     date: "2026-06-13",
     event: "RE:MADE×ROOM",
     venue: "Studio REIMEI / Chofu CROSS",
