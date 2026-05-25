@@ -1,5 +1,16 @@
 var GIGS = [
   {
+    date: "2026-06-21",
+    event: "CARESS KYOTO",
+    isCaress: true,
+    venue: "West Harlem",
+    time: "OPEN 17:00",
+    artists: [
+      { role: "live", names: "Haras" },
+      { role: "DJ", names: "Hue Ray / Kotsu / Le Makeup / naco gotoh / meweta / kotakunisaki" }
+    ]
+  },
+  {
     date: "2026-06-20",
     event: "【404/CUDDLE】",
     venue: "KOBE RINKAITEN",
