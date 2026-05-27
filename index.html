@@ -17,6 +17,7 @@
         <a href="gigs.html">gigs</a>
         <a href="mixes.html">mixes</a>
         <a href="caress.html">caress</a>
+        <a href="sand.html">sand</a>
         <a href="notes.html">notes</a>
       </nav>
     </header>
@@ -25,6 +26,11 @@
 
       <div class="section-label anim-slide">caress</div>
       <ul class="gig-list" id="home-caress-list"></ul>
+
+      <hr class="anim-slide">
+
+      <div class="section-label anim-slide">sand</div>
+      <ul class="gig-list" id="home-sand-list"></ul>
 
       <hr class="anim-slide">
 
@@ -66,10 +72,12 @@
       today.setHours(0, 0, 0, 0);
 
       var caressList = document.getElementById('home-caress-list');
+      var sandList = document.getElementById('home-sand-list');
       var upcomingList = document.getElementById('home-upcoming-list');
       var recentList = document.getElementById('home-recent-list');
 
       var upcomingCaress = [];
+      var upcomingSand = [];
       var upcoming = [];
       var past = [];
 
@@ -79,6 +87,8 @@
         if (gigDate >= today) {
           if (gig.isCaress) {
             upcomingCaress.push(gig);
+          } else if (gig.isSand) {
+            upcomingSand.push(gig);
           } else {
             upcoming.push(gig);
           }
@@ -120,6 +130,19 @@
       caressMore.className = 'gig-item no-flyer anim-slide';
       caressMore.innerHTML = '<div class="gig-body"><div class="gig-info"><span class="gig-event"><a href="caress.html">→ caress</a></span></div></div>';
       caressList.appendChild(caressMore);
+
+      // sand
+      if (upcomingSand.length === 0) {
+        sandList.appendChild(makeEmptyLi('— no upcoming events'));
+      } else {
+        upcomingSand.forEach(function(gig) {
+          sandList.appendChild(makeGigLi(gig));
+        });
+      }
+      var sandMore = document.createElement('li');
+      sandMore.className = 'gig-item no-flyer anim-slide';
+      sandMore.innerHTML = '<div class="gig-body"><div class="gig-info"><span class="gig-event"><a href="sand.html">→ sand</a></span></div></div>';
+      sandList.appendChild(sandMore);
 
       // upcoming gigs
       if (upcoming.length === 0) {

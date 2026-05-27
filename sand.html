@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sand — meweta</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+
+    <header class="anim-slide">
+      <h1 class="site-title"><a href="index.html">meweta</a></h1>
+      <nav>
+        <a href="index.html">home</a>
+        <a href="about.html">about</a>
+        <a href="gigs.html">gigs</a>
+        <a href="mixes.html">mixes</a>
+        <a href="caress.html">caress</a>
+        <a href="sand.html" class="active">sand</a>
+        <a href="notes.html">notes</a>
+      </nav>
+    </header>
+
+    <main>
+
+      <div class="view-toggle anim-slide">
+        <button class="toggle-btn is-active" id="btn-list">list</button>
+        <span class="toggle-sep">·</span>
+        <button class="toggle-btn" id="btn-grid">grid</button>
+      </div>
+
+      <div id="list-view">
+        <div class="section-label anim-slide">upcoming</div>
+        <ul class="event-list" id="upcoming-events"></ul>
+
+        <hr>
+
+        <div class="section-label">past</div>
+        <ul class="event-list" id="past-events"></ul>
+      </div>
+
+      <div id="grid-view" style="display:none">
+        <ul class="flyer-grid" id="flyer-grid"></ul>
+      </div>
+
+    </main>
+
+    <footer>
+      &copy; meweta
+    </footer>
+
+  </div>
+
+  <!-- all events (hidden, sorted by JS) -->
+  <ul id="all-events" style="display:none">
+
+    <li class="event-item anim-slide" data-date="2026-06-27">
+      <div class="event-header">
+        <span class="event-title">sand</span>
+        <span class="event-date">2026.06.27 (Sat)&emsp;OPEN 23:59</span>
+        <span class="event-venue">幡ヶ谷FORESTLIMIT</span>
+      </div>
+
+      <div class="event-body">
+
+        <div class="event-lineup">
+          <div class="event-lineup-floor">
+            <span class="event-lineup-role">DJ</span>
+            <ul>
+              <li>Atras（Hybrid Set）</li>
+              <li>moge!</li>
+              <li>SHIZKA</li>
+              <li>夏至</li>
+              <li>死没</li>
+              <li>meweta</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="event-info-block">
+          <div>
+            DOOR ¥2,000（+1D）
+          </div>
+          <div class="event-ticket">
+            Flyer：uami
+          </div>
+        </div>
+
+      </div>
+    </li>
+
+  </ul>
+
+  <div class="event-modal" id="event-modal" style="display:none">
+    <div class="event-modal-inner">
+      <div class="event-modal-flyer"></div>
+      <div class="event-modal-info"></div>
+    </div>
+  </div>
+
+  <script src="js/effects.js"></script>
+  <script>
+    (function() {
+      var today = new Date();
+      today.setHours(0, 0, 0, 0);
+
+      var upcomingList = document.getElementById('upcoming-events');
+      var pastList = document.getElementById('past-events');
+      var items = document.querySelectorAll('#all-events > li');
+
+      // upcoming / past に振り分け
+      items.forEach(function(li) {
+        var d = new Date(li.getAttribute('data-date'));
+        d.setHours(0, 0, 0, 0);
+        if (d >= today) {
+          upcomingList.appendChild(li);
+        } else {
+          pastList.appendChild(li);
+        }
+      });
+
+      // フライヤーグリッドを構築
+      var flyerGrid = document.getElementById('flyer-grid');
+      var allItems = document.querySelectorAll('#upcoming-events > li, #past-events > li');
+
+      allItems.forEach(function(li) {
+        var imgEl = li.querySelector('.event-flyer img');
+        var titleEl = li.querySelector('.event-title');
+
+        var card = document.createElement('li');
+        card.className = 'flyer-card';
+
+        if (imgEl) {
+          var img = document.createElement('img');
+          img.src = imgEl.getAttribute('src');
+          img.alt = imgEl.getAttribute('alt') || '';
+          card.appendChild(img);
+        } else {
+          var label = document.createElement('div');
+          label.className = 'flyer-card-text';
+          label.textContent = titleEl ? titleEl.textContent : '—';
+          card.appendChild(label);
+        }
+
+        card.addEventListener('click', function() { openModal(li); });
+        flyerGrid.appendChild(card);
+      });
+
+      // モーダル
+      var modal = document.getElementById('event-modal');
+      var modalFlyer = modal.querySelector('.event-modal-flyer');
+      var modalInfo = modal.querySelector('.event-modal-info');
+
+      function openModal(li) {
+        var imgEl = li.querySelector('.event-flyer img');
+        var titleEl = li.querySelector('.event-title');
+        var dateEl = li.querySelector('.event-date');
+        var venueEl = li.querySelector('.event-venue');
+        var lineupEl = li.querySelector('.event-lineup');
+        var infoEl = li.querySelector('.event-info-block');
+
+        modalFlyer.innerHTML = '';
+        if (imgEl) {
+          var img = document.createElement('img');
+          img.src = imgEl.getAttribute('src');
+          img.alt = imgEl.getAttribute('alt') || '';
+          modalFlyer.appendChild(img);
+        }
+
+        modalInfo.innerHTML = '';
+        if (titleEl) modalInfo.innerHTML += '<span class="modal-title">' + titleEl.textContent + '</span>';
+        if (dateEl)  modalInfo.innerHTML += '<span class="modal-meta">' + dateEl.textContent + '</span>';
+        if (venueEl) modalInfo.innerHTML += '<span class="modal-meta">' + venueEl.textContent + '</span>';
+        if (lineupEl) {
+          var hr = document.createElement('hr');
+          hr.style.margin = '16px 0';
+          modalInfo.appendChild(hr);
+          modalInfo.appendChild(lineupEl.cloneNode(true));
+        }
+        if (infoEl) {
+          modalInfo.appendChild(infoEl.cloneNode(true));
+        }
+
+        modal.style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeModal() {
+        modal.style.display = 'none';
+        document.body.style.overflow = '';
+      }
+
+      modal.addEventListener('click', function(e) {
+        if (e.target === modal) closeModal();
+      });
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') closeModal();
+      });
+
+      // リスト / グリッド 切り替え
+      var btnList = document.getElementById('btn-list');
+      var btnGrid = document.getElementById('btn-grid');
+      var listView = document.getElementById('list-view');
+      var gridView = document.getElementById('grid-view');
+
+      btnList.addEventListener('click', function() {
+        listView.style.display = '';
+        gridView.style.display = 'none';
+        btnList.classList.add('is-active');
+        btnGrid.classList.remove('is-active');
+      });
+      btnGrid.addEventListener('click', function() {
+        listView.style.display = 'none';
+        gridView.style.display = '';
+        btnGrid.classList.add('is-active');
+        btnList.classList.remove('is-active');
+      });
+    })();
+  </script>
+</body>
+</html>

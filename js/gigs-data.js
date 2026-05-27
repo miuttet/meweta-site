@@ -1,5 +1,15 @@
 var GIGS = [
   {
+    date: "2026-06-27",
+    event: "sand",
+    isSand: true,
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 23:59",
+    artists: [
+      { role: "DJ", names: "Atras (Hybrid Set) / moge! / SHIZKA / 夏至 / 死没 / meweta" }
+    ]
+  },
+  {
     date: "2026-06-21",
     event: "CARESS KYOTO",
     isCaress: true,
