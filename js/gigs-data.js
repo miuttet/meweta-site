@@ -75,6 +75,15 @@ var GIGS = [
   },
   {
     date: "2026-05-31",
+    event: "SPACE",
+    venue: "新宿SPACE",
+    time: "OPEN 23:00",
+    artists: [
+      { role: "DJ", names: "ippaida storage / meweta / NordOst / Ryota Nakamura / 宇宙チンチラ / じんじん" }
+    ]
+  },
+  {
+    date: "2026-05-31",
     event: "afraid of water",
     venue: "猫奈落",
     time: "18:00 - 23:00",
