@@ -74,6 +74,19 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-06-10",
+    event: "Carrot Party #38",
+    venue: "神宮前bonobo",
+    time: "22:00 - 5:00",
+    artists: [
+      { role: "1F", names: "RAMI / STACK / meweta / ORUKA / TAISEI" },
+      { role: "2F / live", names: "亀十 / Yuuki Tamano" },
+      { role: "2F", names: "HAYATEX / SAYU" },
+      { role: "food", names: "THE HAPPYmAN CHEAKS" },
+      { role: "live paint", names: "Kensuke Nagatomo / haibi" }
+    ]
+  },
+  {
     date: "2026-05-31",
     event: "SPACE",
     venue: "新宿SPACE",
