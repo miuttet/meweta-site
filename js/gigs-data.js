@@ -64,6 +64,15 @@ var GIGS = [
   },
   {
     date: "2026-06-11",
+    event: "tangent point",
+    venue: "",
+    time: "OPEN 23:59",
+    artists: [
+      { role: "DJ", names: "DDD (from KOREA) / galaxychinchilla & kakeko / 夏至 / meweta / ｎｏｎｏｋａ / NordOst" }
+    ]
+  },
+  {
+    date: "2026-06-11",
     event: "CARESS KNOT",
     isCaress: true,
     venue: "幡ヶ谷FORESTLIMIT",
