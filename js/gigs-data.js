@@ -65,7 +65,7 @@ var GIGS = [
   {
     date: "2026-06-11",
     event: "tangent point",
-    venue: "",
+    venue: "幡ヶ谷FORESTLIMIT",
     time: "OPEN 23:59",
     artists: [
       { role: "DJ", names: "DDD (from KOREA) / galaxychinchilla & kakeko / 夏至 / meweta / ｎｏｎｏｋａ / NordOst" }
