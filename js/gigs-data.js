@@ -96,6 +96,12 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-06-07",
+    event: "VISLA FM",
+    venue: "VISLA FM",
+    time: "18:00"
+  },
+  {
     date: "2026-05-31",
     event: "SPACE",
     venue: "新宿SPACE",
