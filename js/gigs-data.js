@@ -85,7 +85,7 @@ var GIGS = [
   {
     date: "2026-06-10",
     event: "Carrot Party #38",
-    venue: "神宮前bonobo",
+    venue: "bar bonobo",
     time: "22:00 - 5:00",
     artists: [
       { role: "1F", names: "RAMI / STACK / meweta / ORUKA / TAISEI" },
