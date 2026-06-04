@@ -10,6 +10,16 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-06-25",
+    event: "ZVocal in ZEROTOKYO",
+    venue: "ZEROTOKYO",
+    time: "OPEN 23:00",
+    artists: [
+      { role: "live", names: "ラムファイター / silkyheqrt / NISC / idreamu / Pu$h! / Hilua / 霊伽" },
+      { role: "DJ", names: "Imkaka / 前澤 / Halfye from らりる連合 / iga / Xamd / NordOst / NISC (劇場版, space_name, I luv BBW) / meweta / szkpp / 〜離 / NOWBU / DJ OFFPRICE / seaketa / Minami-no-shima" }
+    ]
+  },
+  {
     date: "2026-06-21",
     event: "CARESS KYOTO",
     isCaress: true,
