@@ -22,7 +22,7 @@ var GIGS = [
   {
     date: "2026-06-24",
     event: "Citta",
-    venue: "",
+    venue: "West Harlem",
     time: "OPEN 21:00",
     artists: [
       { role: "DJ", names: "meweta / nap / sak / kotakunisaki" }
