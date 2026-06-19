@@ -20,6 +20,15 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-06-24",
+    event: "Citta",
+    venue: "",
+    time: "OPEN 21:00",
+    artists: [
+      { role: "DJ", names: "meweta / nap / sak / kotakunisaki" }
+    ]
+  },
+  {
     date: "2026-06-21",
     event: "CARESS KYOTO",
     isCaress: true,
