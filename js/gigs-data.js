@@ -29,6 +29,15 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-06-22",
+    event: "DEAR MONDAY, vol.291",
+    venue: "",
+    time: "22:00 - 5:00",
+    artists: [
+      { role: "DJ", names: "meweta / osk / HSC" }
+    ]
+  },
+  {
     date: "2026-06-21",
     event: "CARESS KYOTO",
     isCaress: true,
