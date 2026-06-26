@@ -34,6 +34,15 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-06-25",
+    event: "reply",
+    venue: "SPREAD",
+    time: "19:00 - 24:00",
+    artists: [
+      { role: "DJ", names: "bonnie / Masato Chiba / meweta / nano odorine / DJ melody" }
+    ]
+  },
+  {
     date: "2026-06-24",
     event: "Citta",
     venue: "West Harlem",
