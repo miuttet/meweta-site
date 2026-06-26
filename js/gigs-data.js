@@ -1,5 +1,19 @@
 var GIGS = [
   {
+    date: "2026-07-05",
+    event: "OMPA",
+    venue: "下北沢CREAM",
+    time: "OPEN 17:00",
+    artists: [
+      { role: "3F / band", names: "ヨコエアキラ怪談組 / DJステップナー / グミのスパゲッティ" },
+      { role: "2F / band", names: "brooks / 座布団忍者 / türk bluez / vaughan" },
+      { role: "1F / DJ", names: "kenseidoi / Kota / satoru / ヘンミ(türk bluez) / 祝祭 / 関口暗渠" },
+      { role: "B1F / DJ", names: "HALU / meweta / nmsg / fuminon / YnE / arga" },
+      { role: "VJ", names: "Konatsu & Ui" },
+      { role: "food", names: "長谷川詩乃(türk bluez)" }
+    ]
+  },
+  {
     date: "2026-06-27",
     event: "sand",
     isSand: true,
