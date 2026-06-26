@@ -1,5 +1,15 @@
 var GIGS = [
   {
+    date: "2026-07-12",
+    event: "Feat.MATAWA spin off",
+    venue: "bar bonobo",
+    time: "15:00 - 22:00",
+    artists: [
+      { role: "DJ", names: "Sebun / meweta / m-int / tomo takashima" },
+      { role: "market", names: "知らねえ単語 / 太郎物語 / SHOMA MITANI / towye graphics" }
+    ]
+  },
+  {
     date: "2026-07-05",
     event: "OMPA",
     venue: "下北沢CREAM",
