@@ -1,5 +1,17 @@
 var GIGS = [
   {
+    date: "2026-07-17",
+    event: "Dance, Forever",
+    venue: "clubasia",
+    time: "23:00 - 5:00",
+    artists: [
+      { role: "MAIN FLOOR", names: "Big Animal Theory / MK woop (live) / okadada / K8 / galaxychinchilla / sysmo (live) / illequal" },
+      { role: "MAIN FLOOR / VJ", names: "cosgaso / sakamichi" },
+      { role: "2F FLOOR", names: "anolis / lil peace / meweta / Telematic Visions / moge! / Aki Dolanikov" },
+      { role: "BAR FLOOR", names: "〜離 / Guchon / PHANNEL / Jabulani / NordOst / Acrocanthosaurus" }
+    ]
+  },
+  {
     date: "2026-07-12",
     event: "Feat.MATAWA spin off",
     venue: "bar bonobo",
