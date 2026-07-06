@@ -1,5 +1,17 @@
 var GIGS = [
   {
+    date: "2026-08-02",
+    event: "tran-ious",
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 17:00 / CLOSE 22:00",
+    artists: [
+      { role: "live", names: "Le Makeup / Mare Interno / MIHAMAASMELODIES" },
+      { role: "DJ", names: "〜離 / meweta / 存在 / 夏至 / HSP" },
+      { role: "VJ", names: "Ni" },
+      { role: "pop-up", names: "komodoroom" }
+    ]
+  },
+  {
     date: "2026-07-17",
     event: "Dance, Forever",
     venue: "clubasia",
