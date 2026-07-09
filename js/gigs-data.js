@@ -241,7 +241,7 @@ var GIGS = [
   {
     date: "2026-04-11",
     event: "ゆわさるおふせよvol.3",
-    venue: "阿佐ヶ谷DRIFT",
+    venue: "ASAGAYA DRIFT",
     time: "18:00 - 23:40",
     artists: [
       { role: "DJ", names: "愛 / 61 / @cfnslptu / 0xygen / meweta / netanoiyai / Ziziphus Jujuba / S3R4PH" },
@@ -292,7 +292,7 @@ var GIGS = [
   {
     date: "2026-03-12",
     event: "SUN",
-    venue: "阿佐ヶ谷DRIFT",
+    venue: "ASAGAYA DRIFT",
     time: "18:00 - 23:20",
     artists: [
       { role: "DJ", names: "ario / Ishiwata Kota B2B りやん / LunR++ / meweta / M1HouseSplit / ShoN / S3R4PH (Budots Set) / ドラゴン" },
@@ -452,7 +452,7 @@ var GIGS = [
   {
     date: "2025-12-05",
     event: "doubline vol.14",
-    venue: "阿佐ヶ谷DRIFT",
+    venue: "ASAGAYA DRIFT",
     time: "OPEN 24:00 / CLOSE 28:00",
     artists: [
       { role: "DJ", names: "NordOst / meweta" }
@@ -533,7 +533,7 @@ var GIGS = [
   {
     date: "2025-10-18",
     event: "CRCM vol.4",
-    venue: "阿佐ヶ谷DRIFT",
+    venue: "ASAGAYA DRIFT",
     time: "OPEN 18:00 / CLOSE 23:20",
     artists: [
       { role: "DJ", names: "DJ世界樹 / meweta / Nordチンチラ / Ryota Nakamura / S3R4PH / Zeqoo / エスカリボルグ / 豪雨(negimiso × sazablizry)" },
@@ -553,7 +553,7 @@ var GIGS = [
   {
     date: "2025-10-09",
     event: "JUKEの日 in DRIFT",
-    venue: "阿佐ヶ谷DRIFT",
+    venue: "ASAGAYA DRIFT",
     time: "OPEN 21:00",
     artists: [
       { role: "DJ", names: "cosh / Lord CLX / meweta / moemiki / tellur / yunioshi" }
@@ -635,7 +635,7 @@ var GIGS = [
   {
     date: "2025-08-08",
     event: "勇の日(最終回)",
-    venue: "阿佐ヶ谷DRIFT",
+    venue: "ASAGAYA DRIFT",
     time: "OPEN 22:20",
     artists: [
       { role: "DJ", names: "butagoya / nokia / sazablizry / yahmanfightclub / ⊂(  ᴖ ̫ᴖ)⊃ ⊂(ᴖ ̫ᴖ  )⊃ / 勇と戦車 (OVA) / 石渡康汰 / ドラゴン" }
@@ -674,7 +674,7 @@ var GIGS = [
     date: "2025-07-04",
     event: "CARESS ASAGAYA",
     isCaress: true,
-    venue: "阿佐ヶ谷DRIFT",
+    venue: "ASAGAYA DRIFT",
     time: "OPEN 23:00",
     artists: [
       { role: "DJ", names: "DiamondCatcher8+ / dontkillvibes / tellur / 叡智の書 / エスカリボルグ / ドラゴン / meweta" },
@@ -716,7 +716,7 @@ var GIGS = [
   {
     date: "2025-06-13",
     event: "勇の日 vol. 2 〜誕生日編〜",
-    venue: "阿佐ヶ谷DRIFT",
+    venue: "ASAGAYA DRIFT",
     time: "19:30 - late",
     artists: [
       { role: "live", names: "lilbesh ramko" },
