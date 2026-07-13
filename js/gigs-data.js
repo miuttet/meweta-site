@@ -1,5 +1,17 @@
 var GIGS = [
   {
+    date: "2026-08-11",
+    event: "起爆.com vol.2",
+    venue: "SPREAD",
+    time: "16:30 - 23:00",
+    artists: [
+      { role: "DJ", names: "おねがい☆ツインズ / ashu / BASiRiNO / dontkillvibes / iga / iyonyang / Kanato / meweta / Morningeek / sazablizry / VIVID H34RTS" },
+      { role: "VJ", names: "是空" },
+      { role: "popup", names: "F-5" },
+      { role: "flyer", names: "Maika" }
+    ]
+  },
+  {
     date: "2026-08-02",
     event: "tran-ious",
     venue: "幡ヶ谷FORESTLIMIT",
