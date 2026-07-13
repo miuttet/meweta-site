@@ -6,9 +6,7 @@ var GIGS = [
     time: "16:30 - 23:00",
     artists: [
       { role: "DJ", names: "おねがい☆ツインズ / ashu / BASiRiNO / dontkillvibes / iga / iyonyang / Kanato / meweta / Morningeek / sazablizry / VIVID H34RTS" },
-      { role: "VJ", names: "是空" },
-      { role: "popup", names: "F-5" },
-      { role: "flyer", names: "Maika" }
+      { role: "VJ", names: "是空" }
     ]
   },
   {
@@ -31,8 +29,7 @@ var GIGS = [
     artists: [
       { role: "Main Floor", names: "muyu / In-Character / 湯煎白雪 / Inaharu / meweta / 存在 / パソコン教室 b2b davyvolnutt" },
       { role: "VJ", names: "Yajim. / RakuLogic / soonda" },
-      { role: "Lounge Floor", names: "sa2e / suikoko / 大誤算 / Sh!j1mi / Flowing / Fuwatoro / N_dog / すずしろ-シロタハルトalt. / C-MPTN" },
-      { role: "flyer", names: "シロタハルト" }
+      { role: "Lounge Floor", names: "sa2e / suikoko / 大誤算 / Sh!j1mi / Flowing / Fuwatoro / N_dog / すずしろ-シロタハルトalt. / C-MPTN" }
     ]
   },
   {
