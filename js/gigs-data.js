@@ -1,5 +1,14 @@
 var GIGS = [
   {
+    date: "2026-09-11",
+    event: "2riend tour in TOKYO",
+    venue: "LIVE HAUS 下北沢",
+    time: "OPEN 23:30",
+    artists: [
+      { role: "DJ", names: "坂田律子 / illequal / neneeedy B2B RANNA / 〜離 / Imkaka / ohichaaan" }
+    ]
+  },
+  {
     date: "2026-08-11",
     event: "起爆.com vol.2",
     venue: "SPREAD",
@@ -7,6 +16,15 @@ var GIGS = [
     artists: [
       { role: "DJ", names: "おねがい☆ツインズ / ashu / BASiRiNO / dontkillvibes / iga / iyonyang / Kanato / meweta / Morningeek / sazablizry / VIVID H34RTS" },
       { role: "VJ", names: "是空" }
+    ]
+  },
+  {
+    date: "2026-08-08",
+    event: "SEASONS",
+    venue: "ASAGAYA DRIFT",
+    time: "17:00 - 23:00",
+    artists: [
+      { role: "DJ", names: "0020RA / Chameleon T / meweta / ohichaaan / Radial / saqess / VOX / 叡智の書 / 愛" }
     ]
   },
   {
