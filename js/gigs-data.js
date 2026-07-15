@@ -9,6 +9,16 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-08-13",
+    event: "CARESS WAKE",
+    isCaress: true,
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 19:00 / CLOSE 05:00",
+    artists: [
+      { role: "DJ", names: "attkh~~~i / ethno / JACKSON Kaki / meizin / noripi / suwakazuya / yayoi / エスカリボルグ / 死夏 / meweta" }
+    ]
+  },
+  {
     date: "2026-08-11",
     event: "起爆.com vol.2",
     venue: "SPREAD",
