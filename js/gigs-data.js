@@ -9,6 +9,28 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-08-21",
+    event: "mewww:Aries",
+    venue: "7F",
+    time: "OPEN 23:00",
+    artists: [
+      { role: "DJ", names: "galaxychinchilla / meweta / MIDI War / Rat / ruki / もふもふパニック" }
+    ]
+  },
+  {
+    date: "2026-08-15",
+    event: "ISCARIOT 3rd Anniy.musicfm.zip",
+    venue: "下北沢LIVEHAUS / SPREAD / &ROOM",
+    time: "DAY 17:00 - 23:00 / NIGHT 23:59 - 5:00",
+    artists: [
+      { role: "DAY / LIVEHAUS", names: "Acrocanthosaurus / AiR NiKAr / blue web. / 前髪ぱっつん少年 / ผ้าอ้อม99999 / 坂田律子 / sentimental hardware / SWAPNOTES / Telematic Visions" },
+      { role: "DAY / SPREAD", names: "DREAM FIGHT CLUB（meweta vs 夏至） / galaxychinchilla / iga / #jesusclub M4tt / nelde / package_emoji / RYOKO2000 / sysmo / 食品まつり a.k.a foodman" },
+      { role: "DAY / &ROOM", names: "Guchon / Jun Inagawa / music fm / okadada" },
+      { role: "NIGHT / LIVEHAUS", names: "cosh / halfye B2B linterconnect / icesawder / illequal / NordOst / sazy / TAKAHATA ELECTRONICA SYNDICATE / X2lowline" },
+      { role: "NIGHT / SPREAD", names: "anolis / discordsquad2k / Djsareo / kan7west / Yurushite Nyan / 〜離" }
+    ]
+  },
+  {
     date: "2026-08-13",
     event: "CARESS WAKE",
     isCaress: true,
