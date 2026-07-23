@@ -11,7 +11,7 @@ var GIGS = [
   {
     date: "2026-08-21",
     event: "mewww:Aries",
-    venue: "7F",
+    venue: "RLounge 7F",
     time: "OPEN 23:00",
     artists: [
       { role: "DJ", names: "galaxychinchilla / meweta / MIDI War / Rat / ruki / もふもふパニック" }
