@@ -72,6 +72,16 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-07-29",
+    event: "塵 M/A/S/S/A/C/R/E",
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 18:30",
+    artists: [
+      { role: "live", names: "百年の孤独 / iVy / Metoronori × suze塵 / seaketa" },
+      { role: "DJ", names: "cocoa / meweta / noripi / seaketa" }
+    ]
+  },
+  {
     date: "2026-07-25",
     event: "微睡と雨",
     venue: "PUBLIC PUBLIC",
