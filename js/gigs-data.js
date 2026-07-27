@@ -5,7 +5,7 @@ var GIGS = [
     venue: "LIVE HAUS 下北沢",
     time: "OPEN 23:30",
     artists: [
-      { role: "DJ", names: "坂田律子 / illequal / neneeedy B2B RANNA / 〜離 / Imkaka / ohichaaan" }
+      { role: "DJ", names: "illequal / 坂田律子 / 〜離 / meweta / Imkaka / neneeedy×RANNA / ohichaaan" }
     ]
   },
   {
