@@ -19,7 +19,7 @@ var GIGS = [
   },
   {
     date: "2026-08-15",
-    event: "ISCARIOT 3rd Anniy.musicfm.zip",
+    event: "ISCARIOT × musicfm.zip",
     venue: "下北沢LIVEHAUS / SPREAD / &ROOM",
     time: "DAY 17:00 - 23:00 / NIGHT 23:59 - 5:00",
     artists: [
