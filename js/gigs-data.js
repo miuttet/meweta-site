@@ -9,6 +9,15 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-08-30",
+    event: "mealth",
+    venue: "LIVEHAUS Shimokitazawa",
+    time: "OPEN 23:30 / CLOSE 05:00",
+    artists: [
+      { role: "live", names: "arow (CCC/morph) / Iriyama(薬膳 BAR SAKAE) / mad / meweta" }
+    ]
+  },
+  {
     date: "2026-08-21",
     event: "mewww:Aries",
     venue: "RLounge 7F",
