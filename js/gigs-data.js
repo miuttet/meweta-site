@@ -2,7 +2,7 @@ var GIGS = [
   {
     date: "2026-09-11",
     event: "2riend tour in TOKYO",
-    venue: "LIVE HAUS 下北沢",
+    venue: "LIVEHAUS Shimokitazawa",
     time: "OPEN 23:30",
     artists: [
       { role: "DJ", names: "illequal / 坂田律子 / 〜離 / meweta / Imkaka / neneeedy×RANNA / ohichaaan" }
@@ -29,7 +29,7 @@ var GIGS = [
   {
     date: "2026-08-15",
     event: "ISCARIOT × musicfm.zip",
-    venue: "下北沢LIVEHAUS / SPREAD / &ROOM",
+    venue: "LIVEHAUS Shimokitazawa / SPREAD / &ROOM",
     time: "DAY 17:00 - 23:00 / NIGHT 23:59 - 5:00",
     artists: [
       { role: "DAY / LIVEHAUS", names: "Acrocanthosaurus / AiR NiKAr / blue web. / 前髪ぱっつん少年 / ผ้าอ้อม99999 / 坂田律子 / sentimental hardware / SWAPNOTES / Telematic Visions" },
@@ -295,7 +295,7 @@ var GIGS = [
   {
     date: "2026-05-03",
     event: "kepra vol.2",
-    venue: "LIVE HAUS Shimokitazawa",
+    venue: "LIVEHAUS Shimokitazawa",
     time: "17:00 - 23:00",
     artists: [
       { role: "DJ", names: "juju / Lo-Fi / meweta / MIKASA / sleepra / u- / 多様な価値観" }
@@ -341,7 +341,7 @@ var GIGS = [
   {
     date: "2026-04-10",
     event: "イスカリオテpre. CRCM 5",
-    venue: "LIVE HAUS",
+    venue: "LIVEHAUS Shimokitazawa",
     time: "23:30-",
     artists: [
       { role: "DJ", names: "anolis / @cfnslptu / Floor Drunker / meweta / ptf boi / 津田 / nerdhispeed in the cockpit i'ma DJ" }
@@ -514,7 +514,7 @@ var GIGS = [
     time: "OPEN 17:00 / CLOSE 05:00",
     artists: [
       { role: "live", names: "DjuBumba×超越 / KAIRUI / Telematic Visions" },
-      { role: "DJ", names: "芥川 / ～離 / anolis / dj woahhaus / Lee / nano odorine / Navi FlashBackAtmosphere / meweta / Ryota Nakamura / noryo / @cfnslptu" },
+      { role: "DJ", names: "芥川 / 〜離 / anolis / dj woahhaus / Lee / nano odorine / Navi FlashBackAtmosphere / meweta / Ryota Nakamura / noryo / @cfnslptu" },
       { role: "VJ", names: "avys / O.G.I / 葉山" }
     ]
   },
@@ -687,7 +687,7 @@ var GIGS = [
     venue: "幡ヶ谷FORESTLIMIT",
     time: "OPEN 19:00",
     artists: [
-      { role: "live", names: "～離 / 蜂的男(from Pasocom Music Club) / audiostoker0720 / 今すぐキス美 / meweta" }
+      { role: "live", names: "〜離 / 蜂的男(from Pasocom Music Club) / audiostoker0720 / 今すぐキス美 / meweta" }
     ]
   },
   {
@@ -1042,7 +1042,7 @@ var GIGS = [
     time: "OPEN 17:00 / CLOSE 22:30",
     artists: [
       { role: "live", names: "Saren / 堀池ゆめぁ / mareno!" },
-      { role: "DJ", names: "pootee / ～離 / myein / meweta / NordOst" }
+      { role: "DJ", names: "pootee / 〜離 / myein / meweta / NordOst" }
     ]
   },
   {
@@ -1078,7 +1078,7 @@ var GIGS = [
     venue: "幡ヶ谷FORESTLIMIT",
     time: "OPEN 15:00 / CLOSE 21:00",
     artists: [
-      { role: "ACT", names: "浅葱ねるな / サセガワ / KBSNK / H B / yuruyuru runtime / meweta / aosushi" },
+      { role: "act", names: "浅葱ねるな / サセガワ / KBSNK / H B / yuruyuru runtime / meweta / aosushi" },
       { role: "VJ", names: "Ni / 査察 / chlumi" }
     ]
   },
