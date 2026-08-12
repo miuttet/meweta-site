@@ -18,6 +18,21 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-08-26",
+    event: "iiso Japan Live: sunrise Tokyo w/ 404 & CARESS",
+    isCaress: true,
+    venue: "WWW + WWWβ",
+    time: "OPEN 18:00",
+    artists: [
+      { role: "WWW / live", names: "iiso / aryy / kegøn" },
+      { role: "WWW / opening live", names: "iga" },
+      { role: "WWW / DJ", names: "Imkaka / meweta" },
+      { role: "WWW / VJ", names: "Yo Oyama" },
+      { role: "WWWβ / live", names: "Elle / Lilhana / mosho / yuzuha" },
+      { role: "WWWβ / DJ", names: "alien.melissa / Telematic Visions / じんじん" }
+    ]
+  },
+  {
     date: "2026-08-21",
     event: "mewww:Aries",
     venue: "RLounge 7F",
