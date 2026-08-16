@@ -11,7 +11,10 @@ var GIGS = [
   {
     date: "2026-09-02",
     event: "八重洲夜市",
-    venue: "TOKYO MIDTOWN YAESU 1F GALLERIA"
+    venue: "TOKYO MIDTOWN YAESU 1F GALLERIA",
+    artists: [
+      { role: "DJ", names: "meweta / YELLOWUHURU" }
+    ]
   },
   {
     date: "2026-08-30",
