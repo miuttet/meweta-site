@@ -9,6 +9,11 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-09-02",
+    event: "八重洲夜市",
+    venue: "TOKYO MIDTOWN YAESU 1F GALLERIA"
+  },
+  {
     date: "2026-08-30",
     event: "mealth",
     venue: "LIVEHAUS Shimokitazawa",
