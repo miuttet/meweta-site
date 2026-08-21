@@ -9,6 +9,18 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-09-11",
+    event: "CARESS × ｺｳｼﾃ pre. \"Lo\"",
+    isCaress: true,
+    venue: "恵比寿BATICA",
+    time: "OPEN 17:00 / CLOSE 22:00",
+    artists: [
+      { role: "live", names: "AMBR / AON / DEKISHI / iga / MIHAMAASMELODIES" },
+      { role: "Shot LIVE", names: "dreame / nohelmetlovedog / octopus nakamura" },
+      { role: "DJ", names: "cellulose / szkPP" }
+    ]
+  },
+  {
     date: "2026-09-02",
     event: "八重洲夜市",
     venue: "TOKYO MIDTOWN YAESU 1F GALLERIA",
