@@ -36,7 +36,7 @@ var GIGS = [
     time: "OPEN 17:00 / CLOSE 22:00",
     artists: [
       { role: "live", names: "AMBR / AON / DEKISHI / iga / MIHAMAASMELODIES" },
-      { role: "Shot LIVE", names: "dreame / nohelmetlovedog / octopus nakamura" },
+      { role: "Shot live", names: "dreame / nohelmetlovedog / octopus nakamura" },
       { role: "DJ", names: "cellulose / szkPP" }
     ]
   },
