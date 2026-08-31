@@ -1,5 +1,15 @@
 var GIGS = [
   {
+    date: "2026-09-23",
+    event: "EVE",
+    venue: "恵比寿BATICA",
+    time: "OPEN 18:00",
+    artists: [
+      { role: "live", names: "It's US!!!! / ksr:3 / lymph / EL Mosh / younyamahashi × hedo / tissue club" },
+      { role: "DJ", names: "サキ上等（sumida1% × SoU） / Nikkie / juliham / BATICA芸人 / meweta / Rat / nekomura" }
+    ]
+  },
+  {
     date: "2026-09-11",
     event: "2riend tour in TOKYO",
     venue: "LIVEHAUS Shimokitazawa",
