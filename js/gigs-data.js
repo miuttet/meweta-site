@@ -10,6 +10,16 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-09-20",
+    event: "PPL",
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 23:30",
+    artists: [
+      { role: "live", names: "DjuBumba × One Boiling Point" },
+      { role: "DJ", names: "Yuto Takei / iichiro taya / ast midori / 1093 / meweta / kotakunisaki" }
+    ]
+  },
+  {
     date: "2026-09-11",
     event: "2riend tour in TOKYO",
     venue: "LIVEHAUS Shimokitazawa",
