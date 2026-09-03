@@ -30,7 +30,7 @@ var GIGS = [
   },
   {
     date: "2026-09-11",
-    event: "CARESS × ｺｳｼﾃ pre. \"Lo\"",
+    event: "Lo",
     isCaress: true,
     venue: "恵比寿BATICA",
     time: "OPEN 17:00 / CLOSE 22:00",
