@@ -1,5 +1,18 @@
 var GIGS = [
   {
+    date: "2026-10-15",
+    event: "SINEWAVERS CLUB",
+    venue: "ZEROTOKYO",
+    time: "OPEN 23:00",
+    artists: [
+      { role: "RING / live", names: "64DX / ハンチング" },
+      { role: "RING / DJ", names: "akii / andrew (TREKKIE TRAX) / meweta / S3R4PH" },
+      { role: "RING / VJ", names: "CUE KITAZAWA" },
+      { role: "R BAR / DJ", names: "バイレファンキかけ子 / Fetus / illequal / Kali Yuga / neneeedy / ryuu" },
+      { role: "TERRACE / DJ", names: "DJ EYELASH / JORDAN / Whocaresmils / Stupid Kozo / Ta93" }
+    ]
+  },
+  {
     date: "2026-09-23",
     event: "EVE",
     venue: "恵比寿BATICA",
