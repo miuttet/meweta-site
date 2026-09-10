@@ -21,7 +21,7 @@ var GIGS = [
   },
   {
     date: "2026-09-11",
-    event: "2riend tour in TOKYO",
+    event: "2riend club tour",
     venue: "LIVEHAUS Shimokitazawa",
     time: "OPEN 23:30",
     artists: [
