@@ -25,7 +25,7 @@ var GIGS = [
     venue: "LIVEHAUS Shimokitazawa",
     time: "OPEN 23:30",
     artists: [
-      { role: "DJ", names: "illequal / 坂田律子 / 〜離 / meweta / Imkaka / neneeedy×RANNA / ohichaaan" }
+      { role: "DJ", names: "illequal / 坂田律子 / 〜離 / meweta / Imkaka / neneeedy×RANNA / ohichaaan / 春麗" }
     ]
   },
   {
