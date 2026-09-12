@@ -13,6 +13,17 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-09-26",
+    event: "blue web. 1st Album Release Party『Blue Reverberation』",
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "DAY OPEN 18:45 / START 19:00 / NIGHT OPEN & START 22:30",
+    artists: [
+      { role: "DAY / live", names: "blue web. / Radddjur / Cafuneiro / Spit lulu’s" },
+      { role: "NIGHT / live", names: "blue web. / 罅 / Jesse Ruins / There is a bus stop across the street, / Magnolia Cacophony" },
+      { role: "NIGHT / DJ", names: "postmodernhippie / yaginiwa / Telematic Visions / meweta" }
+    ]
+  },
+  {
     date: "2026-09-23",
     event: "EVE",
     venue: "恵比寿BATICA",
