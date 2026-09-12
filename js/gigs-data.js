@@ -1096,6 +1096,15 @@ var GIGS = [
     ]
   },
   {
+    date: "2025-01-31",
+    event: "Local Point: TREASURE HUNT",
+    venue: "Zubar Shibuya",
+    time: "17:00 - 23:00",
+    artists: [
+      { role: "act", names: "Music Inn" }
+    ]
+  },
+  {
     date: "2024-12-28",
     event: "ウラニワ",
     venue: "cream shimokitazawa",
