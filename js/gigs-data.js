@@ -13,6 +13,18 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-10-08",
+    event: "CARESS SHED",
+    isCaress: true,
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 18:30",
+    artists: [
+      { role: "live", names: "half raw / 馬" },
+      { role: "DJ", names: "kaolinite / PawPaw / 没 AkA NGS / meweta" },
+      { role: "video", names: "森田瑛子" }
+    ]
+  },
+  {
     date: "2026-10-02",
     event: "P.O.N.D. 2026 × tsuchifumazu \"Party\" - OPENING PARTY -",
     venue: "P BOX STND - SHIBUYA PARCO 10F",
