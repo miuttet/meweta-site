@@ -13,6 +13,15 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-10-02",
+    event: "P.O.N.D. 2026 × tsuchifumazu \"Party\" - OPENING PARTY -",
+    venue: "P BOX STND - SHIBUYA PARCO 10F",
+    time: "OPEN 17:30 / START 18:00",
+    artists: [
+      { role: "act", names: "142clawz (hirihiri + lilbesh ramko) / Lilniina / meweta / mikina / There is a bus stop across the street, / 辻井くぬえ" }
+    ]
+  },
+  {
     date: "2026-09-26",
     event: "blue web. 1st Album Release Party『Blue Reverberation』",
     venue: "幡ヶ谷FORESTLIMIT",
