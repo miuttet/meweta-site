@@ -25,6 +25,15 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-10-03",
+    event: "ラジオ",
+    venue: "幡ヶ谷ニューマタンゴ",
+    time: "21:00 - 5:00",
+    artists: [
+      { role: "DJ", names: "DJ melody / Layali / meweta / チャーハン" }
+    ]
+  },
+  {
     date: "2026-10-02",
     event: "P.O.N.D. 2026 × tsuchifumazu \"Party\" - OPENING PARTY -",
     venue: "P BOX STND - SHIBUYA PARCO 10F",
