@@ -34,6 +34,15 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-09-29",
+    event: "Local Point vol.26",
+    venue: "中野HeavySick Zero",
+    time: "17:00 - 23:00",
+    artists: [
+      { role: "DJ", names: "Abareflail / covaltex / kiyota / LARP Simulator / MAID TWIST / meweta / snobo / 刈-マサカリ" }
+    ]
+  },
+  {
     date: "2026-09-26",
     event: "blue web. 1st Album Release Party『Blue Reverberation』",
     venue: "幡ヶ谷FORESTLIMIT",
