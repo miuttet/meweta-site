@@ -1,5 +1,16 @@
 var GIGS = [
   {
+    date: "2026-11-03",
+    event: "曙光",
+    venue: "ASAGAYA DRIFT",
+    time: "16:00 - 23:00",
+    artists: [
+      { role: "live", names: "iga / Pu$h! / ラムファイター" },
+      { role: "DJ", names: "Imkaka / meweta / netanoiyai / sol / YONEDA / 愛 / 存在" },
+      { role: "VJ", names: "40kI" }
+    ]
+  },
+  {
     date: "2026-10-15",
     event: "SINEWAVERS CLUB",
     venue: "ZEROTOKYO",
