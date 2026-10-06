@@ -11,6 +11,17 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-10-24",
+    event: "seems",
+    venue: "MUSIC BAR AKA",
+    time: "22:00-",
+    artists: [
+      { role: "guest DJ", names: "meweta / Synism" },
+      { role: "guest live", names: "Yousuke Fuyama" },
+      { role: "DJ", names: "Esse AT / SHO HYT / TAKEO / yoshimasa" }
+    ]
+  },
+  {
     date: "2026-10-15",
     event: "SINEWAVERS CLUB",
     venue: "ZEROTOKYO",
