@@ -32,6 +32,16 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-10-22",
+    event: "ผ้าอ้อม99999 × Marshall presents \"KEEP LIVE MUSIC ALIVE\"",
+    venue: "SPREAD",
+    time: "START 19:00",
+    artists: [
+      { role: "live", names: "ผ้าอ้อม99999 / safmusic / RewindFlash / 皆川溺集合体 / octopus nakamura" },
+      { role: "DJ", names: "meweta / Xamd / ドラゴン" }
+    ]
+  },
+  {
     date: "2026-10-15",
     event: "SINEWAVERS CLUB",
     venue: "ZEROTOKYO",
