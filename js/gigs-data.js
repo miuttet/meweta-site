@@ -11,6 +11,16 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-10-30",
+    event: "sand",
+    isSand: true,
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 22:30",
+    artists: [
+      { role: "DJ", names: "OGASHAKA / Telematic Visions / 春麗 / 夏至 / 死没 / meweta" }
+    ]
+  },
+  {
     date: "2026-10-24",
     event: "seems",
     venue: "MUSIC BAR AKA",
