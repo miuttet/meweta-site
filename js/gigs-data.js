@@ -1,5 +1,15 @@
 var GIGS = [
   {
+    date: "2026-11-15",
+    event: "Hyakunen No Kodoku 1st EP Release Party \"森に帰す\"",
+    venue: "SPREAD",
+    time: "OPEN 18:00",
+    artists: [
+      { role: "live", names: "百年の孤独 / RYOKO2000 / ジョンのサン" },
+      { role: "DJ", names: "meweta" }
+    ]
+  },
+  {
     date: "2026-11-03",
     event: "曙光",
     venue: "ASAGAYA DRIFT",
