@@ -1,5 +1,15 @@
 var GIGS = [
   {
+    date: "2027-02-06",
+    event: "What's the...",
+    venue: "MOGRA",
+    time: "14:00 - 20:00",
+    artists: [
+      { role: "DJ", names: "KAIRUI B2B cosgaso / gaburyu / muyu / Gyr0 / meweta / 湯煎白雪 / tim3_rqpse (.+ vs r_qt) / たりすまん" },
+      { role: "VJ", names: "RakuLogic / hakru / Yajim." }
+    ]
+  },
+  {
     date: "2026-11-15",
     event: "Hyakunen No Kodoku 1st EP Release Party \"森に帰す\"",
     venue: "SPREAD",
