@@ -20,6 +20,16 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-11-10",
+    event: "PIVOT",
+    venue: "恵比寿BATICA",
+    time: "OPEN 19:00",
+    artists: [
+      { role: "live", names: "ショウリュウ / retsu_swe / 陽太" },
+      { role: "DJ", names: "iga / NordOst / meweta / halfye / TAI" }
+    ]
+  },
+  {
     date: "2026-11-03",
     event: "曙光",
     venue: "ASAGAYA DRIFT",
