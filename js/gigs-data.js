@@ -10,6 +10,15 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-11-23",
+    event: "ADDIFY vol.9",
+    venue: "中野HeavySick Zero",
+    time: "OPEN 18:00 / CLOSE 23:30",
+    artists: [
+      { role: "DJ", names: "Guchon / moge! / meweta / juliham / ADDIFY TEAM(ShoN, 多様な価値観, Madeinl)" }
+    ]
+  },
+  {
     date: "2026-11-15",
     event: "Hyakunen No Kodoku 1st EP Release Party \"森に帰す\"",
     venue: "SPREAD",
