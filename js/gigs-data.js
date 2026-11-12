@@ -10,6 +10,17 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-11-24",
+    event: "reply × CARESS pre. \"CAN\"",
+    isCaress: true,
+    venue: "SPREAD",
+    time: "19:00 - 23:30",
+    artists: [
+      { role: "live", names: "Karavi Roushi / djmerrychristmas" },
+      { role: "DJ", names: "〜離 / chifu / meweta / Boys don't cry（DJ melody×DJ Slowlife）" }
+    ]
+  },
+  {
     date: "2026-11-23",
     event: "ADDIFY vol.9",
     venue: "中野HeavySick Zero",
