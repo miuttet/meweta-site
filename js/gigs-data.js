@@ -10,6 +10,17 @@ var GIGS = [
     ]
   },
   {
+    date: "2026-12-10",
+    event: "CARESS i",
+    isCaress: true,
+    venue: "幡ヶ谷FORESTLIMIT",
+    time: "OPEN 19:00",
+    artists: [
+      { role: "live", names: "brain node / pham foo" },
+      { role: "DJ", names: "Mau Sniggler / maqui / Piso / meweta" }
+    ]
+  },
+  {
     date: "2026-11-24",
     event: "reply × CARESS pre. \"CAN\"",
     isCaress: true,
